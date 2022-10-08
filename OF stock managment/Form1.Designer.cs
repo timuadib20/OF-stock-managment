@@ -88,14 +88,14 @@
             // 
             // panelTopbar
             // 
-            this.panelTopbar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(18)))), ((int)(((byte)(25)))));
+            this.panelTopbar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(63)))), ((int)(((byte)(74)))));
             this.panelTopbar.Controls.Add(this.btnNotification);
             this.panelTopbar.Controls.Add(this.lblTitle);
             this.panelTopbar.Controls.Add(this.panel1);
             this.panelTopbar.Controls.Add(this.label2);
             this.panelTopbar.Dock = System.Windows.Forms.DockStyle.Top;
             this.panelTopbar.Location = new System.Drawing.Point(0, 0);
-            this.panelTopbar.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.panelTopbar.Margin = new System.Windows.Forms.Padding(6);
             this.panelTopbar.Name = "panelTopbar";
             this.panelTopbar.Size = new System.Drawing.Size(2266, 140);
             this.panelTopbar.TabIndex = 0;
@@ -108,7 +108,7 @@
             this.btnNotification.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnNotification.Image = global::OF_stock_managment.Properties.Resources.icons8_notification_48px_2;
             this.btnNotification.Location = new System.Drawing.Point(1878, 67);
-            this.btnNotification.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.btnNotification.Margin = new System.Windows.Forms.Padding(6);
             this.btnNotification.Name = "btnNotification";
             this.btnNotification.Size = new System.Drawing.Size(74, 73);
             this.btnNotification.TabIndex = 9;
@@ -136,7 +136,7 @@
             this.panel1.Controls.Add(this.btnMaximize);
             this.panel1.Controls.Add(this.btnClose);
             this.panel1.Location = new System.Drawing.Point(2046, 6);
-            this.panel1.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.panel1.Margin = new System.Windows.Forms.Padding(6);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(214, 62);
             this.panel1.TabIndex = 7;
@@ -149,7 +149,7 @@
             this.button1.ForeColor = System.Drawing.Color.White;
             this.button1.Image = global::OF_stock_managment.Properties.Resources.icons8_macos_minimize_60;
             this.button1.Location = new System.Drawing.Point(-76, 0);
-            this.button1.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.button1.Margin = new System.Windows.Forms.Padding(6);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(82, 62);
             this.button1.TabIndex = 5;
@@ -163,7 +163,7 @@
             this.btnMinimize.ForeColor = System.Drawing.Color.White;
             this.btnMinimize.Image = global::OF_stock_managment.Properties.Resources.icons8_macos_minimize_60;
             this.btnMinimize.Location = new System.Drawing.Point(6, 0);
-            this.btnMinimize.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.btnMinimize.Margin = new System.Windows.Forms.Padding(6);
             this.btnMinimize.Name = "btnMinimize";
             this.btnMinimize.Size = new System.Drawing.Size(82, 62);
             this.btnMinimize.TabIndex = 3;
@@ -178,7 +178,7 @@
             this.btnMaximize.ForeColor = System.Drawing.Color.White;
             this.btnMaximize.Image = global::OF_stock_managment.Properties.Resources.icons8_macos_full_screen_60;
             this.btnMaximize.Location = new System.Drawing.Point(88, 0);
-            this.btnMaximize.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.btnMaximize.Margin = new System.Windows.Forms.Padding(6);
             this.btnMaximize.Name = "btnMaximize";
             this.btnMaximize.Size = new System.Drawing.Size(60, 62);
             this.btnMaximize.TabIndex = 2;
@@ -193,7 +193,7 @@
             this.btnClose.ForeColor = System.Drawing.Color.White;
             this.btnClose.Image = global::OF_stock_managment.Properties.Resources.icons8_macos_close_60;
             this.btnClose.Location = new System.Drawing.Point(148, 0);
-            this.btnClose.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.btnClose.Margin = new System.Windows.Forms.Padding(6);
             this.btnClose.Name = "btnClose";
             this.btnClose.Size = new System.Drawing.Size(66, 62);
             this.btnClose.TabIndex = 4;
@@ -203,7 +203,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(18)))), ((int)(((byte)(25)))));
+            this.label2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(63)))), ((int)(((byte)(74)))));
             this.label2.Font = new System.Drawing.Font("MS Gothic", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.Cornsilk;
             this.label2.Location = new System.Drawing.Point(84, 35);
@@ -215,7 +215,7 @@
             // 
             // panelMenuBar
             // 
-            this.panelMenuBar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(18)))), ((int)(((byte)(25)))));
+            this.panelMenuBar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(63)))), ((int)(((byte)(74)))));
             this.panelMenuBar.Controls.Add(this.pnlImport);
             this.panelMenuBar.Controls.Add(this.btnBackup);
             this.panelMenuBar.Controls.Add(this.pnlRecycle);
@@ -229,7 +229,7 @@
             this.panelMenuBar.Controls.Add(this.pnlNav);
             this.panelMenuBar.Dock = System.Windows.Forms.DockStyle.Left;
             this.panelMenuBar.Location = new System.Drawing.Point(0, 140);
-            this.panelMenuBar.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.panelMenuBar.Margin = new System.Windows.Forms.Padding(6);
             this.panelMenuBar.Name = "panelMenuBar";
             this.panelMenuBar.Size = new System.Drawing.Size(400, 1131);
             this.panelMenuBar.TabIndex = 1;
@@ -241,7 +241,7 @@
             this.pnlImport.Controls.Add(this.btnImport);
             this.pnlImport.Dock = System.Windows.Forms.DockStyle.Top;
             this.pnlImport.Location = new System.Drawing.Point(0, 676);
-            this.pnlImport.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.pnlImport.Margin = new System.Windows.Forms.Padding(6);
             this.pnlImport.MaximumSize = new System.Drawing.Size(400, 221);
             this.pnlImport.MinimumSize = new System.Drawing.Size(400, 77);
             this.pnlImport.Name = "pnlImport";
@@ -258,7 +258,7 @@
             this.BtnImportPurchase.ForeColor = System.Drawing.Color.Gainsboro;
             this.BtnImportPurchase.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.BtnImportPurchase.Location = new System.Drawing.Point(0, 142);
-            this.BtnImportPurchase.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.BtnImportPurchase.Margin = new System.Windows.Forms.Padding(6);
             this.BtnImportPurchase.Name = "BtnImportPurchase";
             this.BtnImportPurchase.Padding = new System.Windows.Forms.Padding(50, 0, 0, 0);
             this.BtnImportPurchase.Size = new System.Drawing.Size(400, 77);
@@ -279,7 +279,7 @@
             this.btnImportProduct.ForeColor = System.Drawing.Color.Gainsboro;
             this.btnImportProduct.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnImportProduct.Location = new System.Drawing.Point(0, 77);
-            this.btnImportProduct.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.btnImportProduct.Margin = new System.Windows.Forms.Padding(6);
             this.btnImportProduct.Name = "btnImportProduct";
             this.btnImportProduct.Padding = new System.Windows.Forms.Padding(50, 0, 0, 0);
             this.btnImportProduct.Size = new System.Drawing.Size(400, 65);
@@ -300,7 +300,7 @@
             this.btnImport.ForeColor = System.Drawing.Color.Gainsboro;
             this.btnImport.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnImport.Location = new System.Drawing.Point(0, 0);
-            this.btnImport.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.btnImport.Margin = new System.Windows.Forms.Padding(6);
             this.btnImport.Name = "btnImport";
             this.btnImport.Padding = new System.Windows.Forms.Padding(50, 0, 0, 0);
             this.btnImport.Size = new System.Drawing.Size(400, 77);
@@ -321,7 +321,7 @@
             this.btnBackup.ForeColor = System.Drawing.Color.Gainsboro;
             this.btnBackup.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnBackup.Location = new System.Drawing.Point(0, 588);
-            this.btnBackup.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.btnBackup.Margin = new System.Windows.Forms.Padding(6);
             this.btnBackup.Name = "btnBackup";
             this.btnBackup.Padding = new System.Windows.Forms.Padding(50, 0, 0, 0);
             this.btnBackup.Size = new System.Drawing.Size(400, 88);
@@ -339,7 +339,7 @@
             this.pnlRecycle.Controls.Add(this.btnRecycle);
             this.pnlRecycle.Dock = System.Windows.Forms.DockStyle.Top;
             this.pnlRecycle.Location = new System.Drawing.Point(0, 500);
-            this.pnlRecycle.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.pnlRecycle.Margin = new System.Windows.Forms.Padding(6);
             this.pnlRecycle.MaximumSize = new System.Drawing.Size(400, 363);
             this.pnlRecycle.MinimumSize = new System.Drawing.Size(400, 88);
             this.pnlRecycle.Name = "pnlRecycle";
@@ -356,7 +356,7 @@
             this.btnRecycleSupplier.ForeColor = System.Drawing.Color.Gainsboro;
             this.btnRecycleSupplier.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnRecycleSupplier.Location = new System.Drawing.Point(0, 264);
-            this.btnRecycleSupplier.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.btnRecycleSupplier.Margin = new System.Windows.Forms.Padding(6);
             this.btnRecycleSupplier.Name = "btnRecycleSupplier";
             this.btnRecycleSupplier.Padding = new System.Windows.Forms.Padding(50, 0, 0, 0);
             this.btnRecycleSupplier.Size = new System.Drawing.Size(400, 88);
@@ -376,7 +376,7 @@
             this.btnRecycleTransaction.ForeColor = System.Drawing.Color.Gainsboro;
             this.btnRecycleTransaction.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnRecycleTransaction.Location = new System.Drawing.Point(0, 176);
-            this.btnRecycleTransaction.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.btnRecycleTransaction.Margin = new System.Windows.Forms.Padding(6);
             this.btnRecycleTransaction.Name = "btnRecycleTransaction";
             this.btnRecycleTransaction.Padding = new System.Windows.Forms.Padding(50, 0, 0, 0);
             this.btnRecycleTransaction.Size = new System.Drawing.Size(400, 88);
@@ -396,7 +396,7 @@
             this.btnRecycleProduct.ForeColor = System.Drawing.Color.Gainsboro;
             this.btnRecycleProduct.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnRecycleProduct.Location = new System.Drawing.Point(0, 88);
-            this.btnRecycleProduct.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.btnRecycleProduct.Margin = new System.Windows.Forms.Padding(6);
             this.btnRecycleProduct.Name = "btnRecycleProduct";
             this.btnRecycleProduct.Padding = new System.Windows.Forms.Padding(50, 0, 0, 0);
             this.btnRecycleProduct.Size = new System.Drawing.Size(400, 88);
@@ -416,7 +416,7 @@
             this.btnRecycle.ForeColor = System.Drawing.Color.Gainsboro;
             this.btnRecycle.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnRecycle.Location = new System.Drawing.Point(0, 0);
-            this.btnRecycle.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.btnRecycle.Margin = new System.Windows.Forms.Padding(6);
             this.btnRecycle.Name = "btnRecycle";
             this.btnRecycle.Padding = new System.Windows.Forms.Padding(50, 0, 0, 0);
             this.btnRecycle.Size = new System.Drawing.Size(400, 88);
@@ -431,7 +431,7 @@
             // 
             this.pnlNavv.BackColor = System.Drawing.Color.White;
             this.pnlNavv.Location = new System.Drawing.Point(0, 402);
-            this.pnlNavv.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.pnlNavv.Margin = new System.Windows.Forms.Padding(6);
             this.pnlNavv.Name = "pnlNavv";
             this.pnlNavv.Size = new System.Drawing.Size(10, 192);
             this.pnlNavv.TabIndex = 28;
@@ -447,7 +447,7 @@
             this.btnSupplier.ForeColor = System.Drawing.Color.Gainsboro;
             this.btnSupplier.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnSupplier.Location = new System.Drawing.Point(0, 412);
-            this.btnSupplier.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.btnSupplier.Margin = new System.Windows.Forms.Padding(6);
             this.btnSupplier.Name = "btnSupplier";
             this.btnSupplier.Padding = new System.Windows.Forms.Padding(50, 0, 0, 0);
             this.btnSupplier.Size = new System.Drawing.Size(400, 88);
@@ -465,7 +465,7 @@
             this.pnlTransaction.Controls.Add(this.btnPurchase);
             this.pnlTransaction.Controls.Add(this.btnTransaction);
             this.pnlTransaction.Location = new System.Drawing.Point(6, 862);
-            this.pnlTransaction.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.pnlTransaction.Margin = new System.Windows.Forms.Padding(6);
             this.pnlTransaction.MaximumSize = new System.Drawing.Size(400, 327);
             this.pnlTransaction.MinimumSize = new System.Drawing.Size(400, 88);
             this.pnlTransaction.Name = "pnlTransaction";
@@ -480,7 +480,7 @@
             this.button2.Font = new System.Drawing.Font("Segoe UI", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button2.ForeColor = System.Drawing.Color.Gainsboro;
             this.button2.Location = new System.Drawing.Point(0, 242);
-            this.button2.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.button2.Margin = new System.Windows.Forms.Padding(6);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(400, 77);
             this.button2.TabIndex = 29;
@@ -496,7 +496,7 @@
             this.btnSells.Font = new System.Drawing.Font("Segoe UI", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnSells.ForeColor = System.Drawing.Color.Gainsboro;
             this.btnSells.Location = new System.Drawing.Point(0, 165);
-            this.btnSells.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.btnSells.Margin = new System.Windows.Forms.Padding(6);
             this.btnSells.Name = "btnSells";
             this.btnSells.Size = new System.Drawing.Size(400, 77);
             this.btnSells.TabIndex = 28;
@@ -512,7 +512,7 @@
             this.btnPurchase.Font = new System.Drawing.Font("Segoe UI", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnPurchase.ForeColor = System.Drawing.Color.Gainsboro;
             this.btnPurchase.Location = new System.Drawing.Point(0, 88);
-            this.btnPurchase.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.btnPurchase.Margin = new System.Windows.Forms.Padding(6);
             this.btnPurchase.Name = "btnPurchase";
             this.btnPurchase.Size = new System.Drawing.Size(400, 77);
             this.btnPurchase.TabIndex = 27;
@@ -530,7 +530,7 @@
             this.btnTransaction.ForeColor = System.Drawing.Color.Gainsboro;
             this.btnTransaction.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnTransaction.Location = new System.Drawing.Point(0, 0);
-            this.btnTransaction.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.btnTransaction.Margin = new System.Windows.Forms.Padding(6);
             this.btnTransaction.Name = "btnTransaction";
             this.btnTransaction.Padding = new System.Windows.Forms.Padding(50, 0, 0, 0);
             this.btnTransaction.Size = new System.Drawing.Size(400, 88);
@@ -551,7 +551,7 @@
             this.btnProducts.ForeColor = System.Drawing.Color.Gainsboro;
             this.btnProducts.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnProducts.Location = new System.Drawing.Point(0, 284);
-            this.btnProducts.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.btnProducts.Margin = new System.Windows.Forms.Padding(6);
             this.btnProducts.Name = "btnProducts";
             this.btnProducts.Padding = new System.Windows.Forms.Padding(50, 0, 0, 0);
             this.btnProducts.Size = new System.Drawing.Size(400, 128);
@@ -572,7 +572,7 @@
             this.btnDashboard.ForeColor = System.Drawing.Color.Gainsboro;
             this.btnDashboard.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnDashboard.Location = new System.Drawing.Point(0, 196);
-            this.btnDashboard.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.btnDashboard.Margin = new System.Windows.Forms.Padding(6);
             this.btnDashboard.Name = "btnDashboard";
             this.btnDashboard.Padding = new System.Windows.Forms.Padding(50, 0, 0, 0);
             this.btnDashboard.Size = new System.Drawing.Size(400, 88);
@@ -585,10 +585,10 @@
             // 
             // panel2
             // 
-            this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(18)))), ((int)(((byte)(25)))));
+            this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(63)))), ((int)(((byte)(74)))));
             this.panel2.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel2.Location = new System.Drawing.Point(0, 0);
-            this.panel2.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.panel2.Margin = new System.Windows.Forms.Padding(6);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(400, 196);
             this.panel2.TabIndex = 17;
@@ -603,7 +603,7 @@
             this.btnLogout.Image = global::OF_stock_managment.Properties.Resources.icons8_logout_rounded_left_32px_1;
             this.btnLogout.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnLogout.Location = new System.Drawing.Point(0, 1025);
-            this.btnLogout.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.btnLogout.Margin = new System.Windows.Forms.Padding(6);
             this.btnLogout.Name = "btnLogout";
             this.btnLogout.Size = new System.Drawing.Size(400, 106);
             this.btnLogout.TabIndex = 16;
@@ -616,7 +616,7 @@
             // 
             this.pnlNav.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(104)))), ((int)(((byte)(85)))), ((int)(((byte)(230)))));
             this.pnlNav.Location = new System.Drawing.Point(0, 269);
-            this.pnlNav.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.pnlNav.Margin = new System.Windows.Forms.Padding(6);
             this.pnlNav.Name = "pnlNav";
             this.pnlNav.Size = new System.Drawing.Size(10, 192);
             this.pnlNav.TabIndex = 0;
@@ -629,11 +629,11 @@
             // 
             // panelDesktopPan
             // 
-            this.panelDesktopPan.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(207)))), ((int)(((byte)(206)))), ((int)(((byte)(252)))));
+            this.panelDesktopPan.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.panelDesktopPan.Controls.Add(this.pnlNotification);
             this.panelDesktopPan.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panelDesktopPan.Location = new System.Drawing.Point(400, 140);
-            this.panelDesktopPan.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.panelDesktopPan.Margin = new System.Windows.Forms.Padding(6);
             this.panelDesktopPan.Name = "panelDesktopPan";
             this.panelDesktopPan.Size = new System.Drawing.Size(1866, 1131);
             this.panelDesktopPan.TabIndex = 2;
@@ -644,7 +644,7 @@
             this.pnlNotification.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(18)))), ((int)(((byte)(25)))));
             this.pnlNotification.Controls.Add(this.panel3);
             this.pnlNotification.Location = new System.Drawing.Point(1272, 2);
-            this.pnlNotification.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.pnlNotification.Margin = new System.Windows.Forms.Padding(6);
             this.pnlNotification.Name = "pnlNotification";
             this.pnlNotification.Size = new System.Drawing.Size(482, 460);
             this.pnlNotification.TabIndex = 0;
@@ -652,11 +652,11 @@
             // 
             // panel3
             // 
-            this.panel3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(207)))), ((int)(((byte)(206)))), ((int)(((byte)(252)))));
+            this.panel3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.panel3.Controls.Add(this.pnlHighItems);
             this.panel3.Controls.Add(this.pnlLowItem);
             this.panel3.Location = new System.Drawing.Point(6, 8);
-            this.panel3.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.panel3.Margin = new System.Windows.Forms.Padding(6);
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(470, 446);
             this.panel3.TabIndex = 0;
@@ -668,7 +668,7 @@
             this.pnlHighItems.Controls.Add(this.label5);
             this.pnlHighItems.Dock = System.Windows.Forms.DockStyle.Top;
             this.pnlHighItems.Location = new System.Drawing.Point(0, 121);
-            this.pnlHighItems.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.pnlHighItems.Margin = new System.Windows.Forms.Padding(6);
             this.pnlHighItems.Name = "pnlHighItems";
             this.pnlHighItems.Size = new System.Drawing.Size(470, 121);
             this.pnlHighItems.TabIndex = 1;
@@ -712,7 +712,7 @@
             this.pnlLowItem.Controls.Add(this.label1);
             this.pnlLowItem.Dock = System.Windows.Forms.DockStyle.Top;
             this.pnlLowItem.Location = new System.Drawing.Point(0, 0);
-            this.pnlLowItem.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.pnlLowItem.Margin = new System.Windows.Forms.Padding(6);
             this.pnlLowItem.Name = "pnlLowItem";
             this.pnlLowItem.Size = new System.Drawing.Size(470, 121);
             this.pnlLowItem.TabIndex = 0;
@@ -758,7 +758,7 @@
             this.Controls.Add(this.panelMenuBar);
             this.Controls.Add(this.panelTopbar);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.Margin = new System.Windows.Forms.Padding(6);
             this.Name = "FormMain";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "FormMain";

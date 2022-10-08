@@ -62,13 +62,13 @@
             // 
             // txtSupplierName
             // 
-            this.txtSupplierName.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(207)))), ((int)(((byte)(206)))), ((int)(((byte)(252)))));
+            this.txtSupplierName.BackColor = System.Drawing.Color.Silver;
             this.txtSupplierName.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtSupplierName.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtSupplierName.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(63)))), ((int)(((byte)(74)))));
             this.txtSupplierName.Location = new System.Drawing.Point(186, 122);
             this.txtSupplierName.Name = "txtSupplierName";
-            this.txtSupplierName.Size = new System.Drawing.Size(227, 22);
+            this.txtSupplierName.Size = new System.Drawing.Size(227, 43);
             this.txtSupplierName.TabIndex = 147;
             // 
             // lblDescribtion
@@ -81,7 +81,7 @@
             this.lblDescribtion.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(63)))), ((int)(((byte)(74)))));
             this.lblDescribtion.Location = new System.Drawing.Point(33, 122);
             this.lblDescribtion.Name = "lblDescribtion";
-            this.lblDescribtion.Size = new System.Drawing.Size(137, 25);
+            this.lblDescribtion.Size = new System.Drawing.Size(269, 51);
             this.lblDescribtion.TabIndex = 146;
             this.lblDescribtion.Text = "Supplier Name";
             // 
@@ -95,13 +95,13 @@
             // 
             // txtITInNo
             // 
-            this.txtITInNo.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(207)))), ((int)(((byte)(206)))), ((int)(((byte)(252)))));
+            this.txtITInNo.BackColor = System.Drawing.Color.Silver;
             this.txtITInNo.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtITInNo.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtITInNo.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(63)))), ((int)(((byte)(74)))));
             this.txtITInNo.Location = new System.Drawing.Point(184, 61);
             this.txtITInNo.Name = "txtITInNo";
-            this.txtITInNo.Size = new System.Drawing.Size(227, 22);
+            this.txtITInNo.Size = new System.Drawing.Size(227, 43);
             this.txtITInNo.TabIndex = 144;
             // 
             // lblItemCode
@@ -114,7 +114,7 @@
             this.lblItemCode.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(63)))), ((int)(((byte)(74)))));
             this.lblItemCode.Location = new System.Drawing.Point(33, 61);
             this.lblItemCode.Name = "lblItemCode";
-            this.lblItemCode.Size = new System.Drawing.Size(112, 25);
+            this.lblItemCode.Size = new System.Drawing.Size(221, 51);
             this.lblItemCode.TabIndex = 143;
             this.lblItemCode.Text = "Tin Number";
             // 
@@ -128,13 +128,13 @@
             this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(63)))), ((int)(((byte)(74)))));
             this.label1.Location = new System.Drawing.Point(33, 185);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(51, 25);
+            this.label1.Size = new System.Drawing.Size(101, 51);
             this.label1.TabIndex = 149;
             this.label1.Text = "Date";
             // 
             // dateSupplier
             // 
-            this.dateSupplier.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(207)))), ((int)(((byte)(206)))), ((int)(((byte)(252)))));
+            this.dateSupplier.BackColor = System.Drawing.Color.Silver;
             this.dateSupplier.BorderRadius = 0;
             this.dateSupplier.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(63)))), ((int)(((byte)(74)))));
             this.dateSupplier.Format = System.Windows.Forms.DateTimePickerFormat.Long;
@@ -226,15 +226,15 @@
             this.lblState.ForeColor = System.Drawing.Color.Red;
             this.lblState.Location = new System.Drawing.Point(549, 274);
             this.lblState.Name = "lblState";
-            this.lblState.Size = new System.Drawing.Size(126, 21);
+            this.lblState.Size = new System.Drawing.Size(260, 45);
             this.lblState.TabIndex = 196;
             this.lblState.Text = "Description state";
             // 
             // FormAddSupplier
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 21F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(18F, 45F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(207)))), ((int)(((byte)(206)))), ((int)(((byte)(252)))));
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.ClientSize = new System.Drawing.Size(758, 360);
             this.Controls.Add(this.lblState);
             this.Controls.Add(this.panel1);

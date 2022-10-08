@@ -45,8 +45,8 @@
             this.dataGridViewSupplier = new Bunifu.Framework.UI.BunifuCustomDataGrid();
             this.bunifuElipse2 = new Bunifu.Framework.UI.BunifuElipse(this.components);
             this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
-            this.lblState = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.lblState = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewSupplier)).BeginInit();
             this.flowLayoutPanel1.SuspendLayout();
             this.SuspendLayout();
@@ -59,9 +59,10 @@
             this.btnDelete.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnDelete.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnDelete.ForeColor = System.Drawing.Color.White;
-            this.btnDelete.Location = new System.Drawing.Point(537, 17);
+            this.btnDelete.Location = new System.Drawing.Point(1074, 33);
+            this.btnDelete.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.btnDelete.Name = "btnDelete";
-            this.btnDelete.Size = new System.Drawing.Size(145, 30);
+            this.btnDelete.Size = new System.Drawing.Size(290, 58);
             this.btnDelete.TabIndex = 27;
             this.btnDelete.Text = "Delete";
             this.btnDelete.UseVisualStyleBackColor = false;
@@ -75,9 +76,10 @@
             this.btnEdit.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnEdit.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnEdit.ForeColor = System.Drawing.Color.White;
-            this.btnEdit.Location = new System.Drawing.Point(386, 17);
+            this.btnEdit.Location = new System.Drawing.Point(772, 33);
+            this.btnEdit.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.btnEdit.Name = "btnEdit";
-            this.btnEdit.Size = new System.Drawing.Size(145, 30);
+            this.btnEdit.Size = new System.Drawing.Size(290, 58);
             this.btnEdit.TabIndex = 26;
             this.btnEdit.Text = "Edit";
             this.btnEdit.UseVisualStyleBackColor = false;
@@ -93,9 +95,10 @@
             this.btnAdd.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnAdd.ForeColor = System.Drawing.Color.White;
             this.btnAdd.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnAdd.Location = new System.Drawing.Point(235, 17);
+            this.btnAdd.Location = new System.Drawing.Point(470, 33);
+            this.btnAdd.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.btnAdd.Name = "btnAdd";
-            this.btnAdd.Size = new System.Drawing.Size(145, 30);
+            this.btnAdd.Size = new System.Drawing.Size(290, 58);
             this.btnAdd.TabIndex = 25;
             this.btnAdd.Text = "Add";
             this.btnAdd.UseVisualStyleBackColor = false;
@@ -106,9 +109,10 @@
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(63)))), ((int)(((byte)(74)))));
-            this.label2.Location = new System.Drawing.Point(307, 18);
+            this.label2.Location = new System.Drawing.Point(614, 35);
+            this.label2.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(155, 17);
+            this.label2.Size = new System.Drawing.Size(303, 36);
             this.label2.TabIndex = 24;
             this.label2.Text = "Search By Supplier Name";
             // 
@@ -117,22 +121,23 @@
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(63)))), ((int)(((byte)(74)))));
-            this.label1.Location = new System.Drawing.Point(28, 18);
+            this.label1.Location = new System.Drawing.Point(56, 35);
+            this.label1.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(61, 17);
+            this.label1.Size = new System.Drawing.Size(119, 36);
             this.label1.TabIndex = 23;
             this.label1.Text = "Category";
             // 
             // textBox1
             // 
-            this.textBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(207)))), ((int)(((byte)(206)))), ((int)(((byte)(252)))));
+            this.textBox1.BackColor = System.Drawing.Color.Silver;
             this.textBox1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.textBox1.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(63)))), ((int)(((byte)(74)))));
-            this.textBox1.Location = new System.Drawing.Point(310, 40);
-            this.textBox1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.textBox1.Location = new System.Drawing.Point(620, 77);
+            this.textBox1.Margin = new System.Windows.Forms.Padding(8, 10, 8, 10);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(285, 29);
+            this.textBox1.Size = new System.Drawing.Size(568, 50);
             this.textBox1.TabIndex = 21;
             this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
@@ -150,7 +155,7 @@
             "Bearing",
             "Others",
             "ADD NEW Catagory"});
-            this.cmbSearchCatagory.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(207)))), ((int)(((byte)(206)))), ((int)(((byte)(252)))));
+            this.cmbSearchCatagory.BackColor = System.Drawing.Color.Silver;
             this.cmbSearchCatagory.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.cmbSearchCatagory.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cmbSearchCatagory.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(63)))), ((int)(((byte)(74)))));
@@ -163,10 +168,10 @@
             "Bearing",
             "Other",
             "Add New Catagory"});
-            this.cmbSearchCatagory.Location = new System.Drawing.Point(31, 40);
-            this.cmbSearchCatagory.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.cmbSearchCatagory.Location = new System.Drawing.Point(62, 77);
+            this.cmbSearchCatagory.Margin = new System.Windows.Forms.Padding(8, 10, 8, 10);
             this.cmbSearchCatagory.Name = "cmbSearchCatagory";
-            this.cmbSearchCatagory.Size = new System.Drawing.Size(225, 28);
+            this.cmbSearchCatagory.Size = new System.Drawing.Size(446, 49);
             this.cmbSearchCatagory.TabIndex = 20;
             // 
             // bunifuElipse1
@@ -176,14 +181,15 @@
             // 
             // btnSearch
             // 
-            this.btnSearch.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(207)))), ((int)(((byte)(206)))), ((int)(((byte)(252)))));
+            this.btnSearch.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.btnSearch.BackgroundImage = global::OF_stock_managment.Properties.Resources.icons8_search_64px_12;
             this.btnSearch.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.btnSearch.FlatAppearance.BorderSize = 0;
             this.btnSearch.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnSearch.Location = new System.Drawing.Point(597, 40);
+            this.btnSearch.Location = new System.Drawing.Point(1194, 77);
+            this.btnSearch.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.btnSearch.Name = "btnSearch";
-            this.btnSearch.Size = new System.Drawing.Size(41, 29);
+            this.btnSearch.Size = new System.Drawing.Size(82, 56);
             this.btnSearch.TabIndex = 22;
             this.btnSearch.UseVisualStyleBackColor = false;
             // 
@@ -222,7 +228,8 @@
             this.dataGridViewSupplier.EnableHeadersVisualStyles = false;
             this.dataGridViewSupplier.HeaderBgColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(63)))), ((int)(((byte)(74)))));
             this.dataGridViewSupplier.HeaderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.dataGridViewSupplier.Location = new System.Drawing.Point(7, 92);
+            this.dataGridViewSupplier.Location = new System.Drawing.Point(14, 177);
+            this.dataGridViewSupplier.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.dataGridViewSupplier.Name = "dataGridViewSupplier";
             this.dataGridViewSupplier.ReadOnly = true;
             this.dataGridViewSupplier.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
@@ -235,11 +242,12 @@
             dataGridViewCellStyle4.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
             this.dataGridViewSupplier.RowHeadersDefaultCellStyle = dataGridViewCellStyle4;
             this.dataGridViewSupplier.RowHeadersVisible = false;
+            this.dataGridViewSupplier.RowHeadersWidth = 82;
             this.dataGridViewSupplier.RowTemplate.Height = 30;
             this.dataGridViewSupplier.RowTemplate.ReadOnly = true;
             this.dataGridViewSupplier.RowTemplate.Resizable = System.Windows.Forms.DataGridViewTriState.False;
             this.dataGridViewSupplier.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dataGridViewSupplier.Size = new System.Drawing.Size(940, 379);
+            this.dataGridViewSupplier.Size = new System.Drawing.Size(1880, 729);
             this.dataGridViewSupplier.TabIndex = 88;
             // 
             // bunifuElipse2
@@ -255,10 +263,19 @@
             this.flowLayoutPanel1.Controls.Add(this.btnDelete);
             this.flowLayoutPanel1.Controls.Add(this.lblState);
             this.flowLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.flowLayoutPanel1.Location = new System.Drawing.Point(0, 489);
+            this.flowLayoutPanel1.Location = new System.Drawing.Point(0, 940);
+            this.flowLayoutPanel1.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.flowLayoutPanel1.Name = "flowLayoutPanel1";
-            this.flowLayoutPanel1.Size = new System.Drawing.Size(964, 70);
+            this.flowLayoutPanel1.Size = new System.Drawing.Size(1928, 135);
             this.flowLayoutPanel1.TabIndex = 89;
+            // 
+            // panel1
+            // 
+            this.panel1.Location = new System.Drawing.Point(6, 6);
+            this.panel1.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(452, 112);
+            this.panel1.TabIndex = 0;
             // 
             // lblState
             // 
@@ -267,25 +284,19 @@
             this.lblState.AutoSize = true;
             this.lblState.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblState.ForeColor = System.Drawing.Color.Red;
-            this.lblState.Location = new System.Drawing.Point(688, 0);
+            this.lblState.Location = new System.Drawing.Point(1376, 0);
+            this.lblState.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.lblState.Name = "lblState";
-            this.lblState.Size = new System.Drawing.Size(126, 21);
+            this.lblState.Size = new System.Drawing.Size(260, 45);
             this.lblState.TabIndex = 196;
             this.lblState.Text = "Description state";
             // 
-            // panel1
-            // 
-            this.panel1.Location = new System.Drawing.Point(3, 3);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(226, 58);
-            this.panel1.TabIndex = 0;
-            // 
             // FormSupplier
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(207)))), ((int)(((byte)(206)))), ((int)(((byte)(252)))));
-            this.ClientSize = new System.Drawing.Size(964, 559);
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.ClientSize = new System.Drawing.Size(1928, 1075);
             this.Controls.Add(this.flowLayoutPanel1);
             this.Controls.Add(this.dataGridViewSupplier);
             this.Controls.Add(this.label2);
@@ -294,6 +305,7 @@
             this.Controls.Add(this.cmbSearchCatagory);
             this.Controls.Add(this.btnSearch);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.Name = "FormSupplier";
             this.Text = "Supplier";
             this.Load += new System.EventHandler(this.FormSupplier_Load);

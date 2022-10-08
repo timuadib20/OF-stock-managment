@@ -65,9 +65,10 @@
             this.btnDelete.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnDelete.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnDelete.ForeColor = System.Drawing.Color.White;
-            this.btnDelete.Location = new System.Drawing.Point(511, 30);
+            this.btnDelete.Location = new System.Drawing.Point(1022, 58);
+            this.btnDelete.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.btnDelete.Name = "btnDelete";
-            this.btnDelete.Size = new System.Drawing.Size(145, 30);
+            this.btnDelete.Size = new System.Drawing.Size(290, 58);
             this.btnDelete.TabIndex = 27;
             this.btnDelete.Text = "Delete";
             this.btnDelete.UseVisualStyleBackColor = false;
@@ -82,9 +83,10 @@
             this.btnEdit.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnEdit.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnEdit.ForeColor = System.Drawing.Color.White;
-            this.btnEdit.Location = new System.Drawing.Point(360, 30);
+            this.btnEdit.Location = new System.Drawing.Point(720, 58);
+            this.btnEdit.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.btnEdit.Name = "btnEdit";
-            this.btnEdit.Size = new System.Drawing.Size(145, 30);
+            this.btnEdit.Size = new System.Drawing.Size(290, 58);
             this.btnEdit.TabIndex = 26;
             this.btnEdit.Text = "Edit";
             this.btnEdit.UseVisualStyleBackColor = false;
@@ -92,14 +94,14 @@
             // 
             // txtInvoice
             // 
-            this.txtInvoice.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(207)))), ((int)(((byte)(206)))), ((int)(((byte)(252)))));
+            this.txtInvoice.BackColor = System.Drawing.Color.Silver;
             this.txtInvoice.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txtInvoice.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtInvoice.ForeColor = System.Drawing.Color.Black;
-            this.txtInvoice.Location = new System.Drawing.Point(209, 39);
-            this.txtInvoice.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.txtInvoice.Location = new System.Drawing.Point(418, 75);
+            this.txtInvoice.Margin = new System.Windows.Forms.Padding(8, 10, 8, 10);
             this.txtInvoice.Name = "txtInvoice";
-            this.txtInvoice.Size = new System.Drawing.Size(152, 29);
+            this.txtInvoice.Size = new System.Drawing.Size(302, 50);
             this.txtInvoice.TabIndex = 21;
             this.txtInvoice.TextChanged += new System.EventHandler(this.txtItemDescribtion_TextChanged);
             // 
@@ -108,9 +110,10 @@
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(63)))), ((int)(((byte)(74)))));
-            this.label3.Location = new System.Drawing.Point(24, 18);
+            this.label3.Location = new System.Drawing.Point(48, 35);
+            this.label3.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(78, 17);
+            this.label3.Size = new System.Drawing.Size(151, 36);
             this.label3.TabIndex = 30;
             this.label3.Text = "Time Period";
             // 
@@ -128,7 +131,7 @@
             "Bearing",
             "Others",
             "ADD NEW Catagory"});
-            this.cmbPeriod.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(207)))), ((int)(((byte)(206)))), ((int)(((byte)(252)))));
+            this.cmbPeriod.BackColor = System.Drawing.Color.Silver;
             this.cmbPeriod.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.cmbPeriod.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cmbPeriod.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(63)))), ((int)(((byte)(74)))));
@@ -139,10 +142,10 @@
             "This Month",
             "This Year",
             "All the Transaction"});
-            this.cmbPeriod.Location = new System.Drawing.Point(27, 40);
-            this.cmbPeriod.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.cmbPeriod.Location = new System.Drawing.Point(54, 77);
+            this.cmbPeriod.Margin = new System.Windows.Forms.Padding(8, 10, 8, 10);
             this.cmbPeriod.Name = "cmbPeriod";
-            this.cmbPeriod.Size = new System.Drawing.Size(163, 28);
+            this.cmbPeriod.Size = new System.Drawing.Size(322, 49);
             this.cmbPeriod.TabIndex = 29;
             this.cmbPeriod.SelectedIndexChanged += new System.EventHandler(this.cmbPeriod_SelectedIndexChanged);
             this.cmbPeriod.Click += new System.EventHandler(this.cmbPeriod_Click);
@@ -157,9 +160,10 @@
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(63)))), ((int)(((byte)(74)))));
-            this.label2.Location = new System.Drawing.Point(206, 18);
+            this.label2.Location = new System.Drawing.Point(412, 35);
+            this.label2.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(161, 17);
+            this.label2.Size = new System.Drawing.Size(316, 36);
             this.label2.TabIndex = 24;
             this.label2.Text = "Search by Invoice Number";
             // 
@@ -168,9 +172,10 @@
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(63)))), ((int)(((byte)(74)))));
-            this.label4.Location = new System.Drawing.Point(422, 19);
+            this.label4.Location = new System.Drawing.Point(844, 37);
+            this.label4.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(61, 17);
+            this.label4.Size = new System.Drawing.Size(120, 36);
             this.label4.TabIndex = 81;
             this.label4.Text = "Date one";
             // 
@@ -181,9 +186,10 @@
             this.dateTworvf.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(63)))), ((int)(((byte)(74)))));
             this.dateTworvf.Format = System.Windows.Forms.DateTimePickerFormat.Long;
             this.dateTworvf.FormatCustom = null;
-            this.dateTworvf.Location = new System.Drawing.Point(675, 186);
+            this.dateTworvf.Location = new System.Drawing.Point(1350, 358);
+            this.dateTworvf.Margin = new System.Windows.Forms.Padding(12, 12, 12, 12);
             this.dateTworvf.Name = "dateTworvf";
-            this.dateTworvf.Size = new System.Drawing.Size(190, 25);
+            this.dateTworvf.Size = new System.Drawing.Size(380, 48);
             this.dateTworvf.TabIndex = 82;
             this.dateTworvf.Value = new System.DateTime(2021, 11, 3, 0, 0, 0, 0);
             // 
@@ -192,9 +198,10 @@
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(63)))), ((int)(((byte)(74)))));
-            this.label5.Location = new System.Drawing.Point(672, 20);
+            this.label5.Location = new System.Drawing.Point(1344, 38);
+            this.label5.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(62, 17);
+            this.label5.Size = new System.Drawing.Size(123, 36);
             this.label5.TabIndex = 84;
             this.label5.Text = "Date Two";
             // 
@@ -206,9 +213,10 @@
             this.btnSet.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnSet.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnSet.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(63)))), ((int)(((byte)(74)))));
-            this.btnSet.Location = new System.Drawing.Point(899, 40);
+            this.btnSet.Location = new System.Drawing.Point(1798, 77);
+            this.btnSet.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.btnSet.Name = "btnSet";
-            this.btnSet.Size = new System.Drawing.Size(122, 30);
+            this.btnSet.Size = new System.Drawing.Size(244, 58);
             this.btnSet.TabIndex = 86;
             this.btnSet.Text = "Set";
             this.btnSet.UseVisualStyleBackColor = false;
@@ -216,14 +224,15 @@
             // 
             // btnSearch
             // 
-            this.btnSearch.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(207)))), ((int)(((byte)(206)))), ((int)(((byte)(252)))));
+            this.btnSearch.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.btnSearch.BackgroundImage = global::OF_stock_managment.Properties.Resources.icons8_search_64px_11;
             this.btnSearch.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.btnSearch.FlatAppearance.BorderSize = 0;
             this.btnSearch.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnSearch.Location = new System.Drawing.Point(362, 39);
+            this.btnSearch.Location = new System.Drawing.Point(724, 75);
+            this.btnSearch.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.btnSearch.Name = "btnSearch";
-            this.btnSearch.Size = new System.Drawing.Size(41, 29);
+            this.btnSearch.Size = new System.Drawing.Size(82, 56);
             this.btnSearch.TabIndex = 22;
             this.btnSearch.UseVisualStyleBackColor = false;
             this.btnSearch.Click += new System.EventHandler(this.btnSearch_Click);
@@ -263,7 +272,8 @@
             this.dataGridViewTransaction.EnableHeadersVisualStyles = false;
             this.dataGridViewTransaction.HeaderBgColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(63)))), ((int)(((byte)(74)))));
             this.dataGridViewTransaction.HeaderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.dataGridViewTransaction.Location = new System.Drawing.Point(1, 91);
+            this.dataGridViewTransaction.Location = new System.Drawing.Point(2, 175);
+            this.dataGridViewTransaction.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.dataGridViewTransaction.Name = "dataGridViewTransaction";
             this.dataGridViewTransaction.ReadOnly = true;
             this.dataGridViewTransaction.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
@@ -276,11 +286,12 @@
             dataGridViewCellStyle4.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
             this.dataGridViewTransaction.RowHeadersDefaultCellStyle = dataGridViewCellStyle4;
             this.dataGridViewTransaction.RowHeadersVisible = false;
+            this.dataGridViewTransaction.RowHeadersWidth = 82;
             this.dataGridViewTransaction.RowTemplate.Height = 30;
             this.dataGridViewTransaction.RowTemplate.ReadOnly = true;
             this.dataGridViewTransaction.RowTemplate.Resizable = System.Windows.Forms.DataGridViewTriState.False;
             this.dataGridViewTransaction.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dataGridViewTransaction.Size = new System.Drawing.Size(1047, 457);
+            this.dataGridViewTransaction.Size = new System.Drawing.Size(2094, 879);
             this.dataGridViewTransaction.TabIndex = 87;
             // 
             // bunifuElipse2
@@ -298,9 +309,10 @@
             this.btnExport.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnExport.ForeColor = System.Drawing.Color.White;
             this.btnExport.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnExport.Location = new System.Drawing.Point(209, 30);
+            this.btnExport.Location = new System.Drawing.Point(418, 58);
+            this.btnExport.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.btnExport.Name = "btnExport";
-            this.btnExport.Size = new System.Drawing.Size(145, 30);
+            this.btnExport.Size = new System.Drawing.Size(290, 58);
             this.btnExport.TabIndex = 88;
             this.btnExport.Text = "Export";
             this.btnExport.UseVisualStyleBackColor = false;
@@ -308,16 +320,18 @@
             // 
             // dateOne
             // 
-            this.dateOne.Location = new System.Drawing.Point(425, 42);
+            this.dateOne.Location = new System.Drawing.Point(850, 81);
+            this.dateOne.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.dateOne.Name = "dateOne";
-            this.dateOne.Size = new System.Drawing.Size(200, 20);
+            this.dateOne.Size = new System.Drawing.Size(396, 31);
             this.dateOne.TabIndex = 158;
             // 
             // dateTwo
             // 
-            this.dateTwo.Location = new System.Drawing.Point(651, 42);
+            this.dateTwo.Location = new System.Drawing.Point(1302, 81);
+            this.dateTwo.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.dateTwo.Name = "dateTwo";
-            this.dateTwo.Size = new System.Drawing.Size(200, 20);
+            this.dateTwo.Size = new System.Drawing.Size(396, 31);
             this.dateTwo.TabIndex = 159;
             // 
             // flowLayoutPanel1
@@ -328,16 +342,18 @@
             this.flowLayoutPanel1.Controls.Add(this.btnDelete);
             this.flowLayoutPanel1.Controls.Add(this.lblstate);
             this.flowLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.flowLayoutPanel1.Location = new System.Drawing.Point(0, 593);
+            this.flowLayoutPanel1.Location = new System.Drawing.Point(0, 1141);
+            this.flowLayoutPanel1.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.flowLayoutPanel1.Name = "flowLayoutPanel1";
-            this.flowLayoutPanel1.Size = new System.Drawing.Size(1111, 100);
+            this.flowLayoutPanel1.Size = new System.Drawing.Size(2222, 192);
             this.flowLayoutPanel1.TabIndex = 160;
             // 
             // panel1
             // 
-            this.panel1.Location = new System.Drawing.Point(3, 3);
+            this.panel1.Location = new System.Drawing.Point(6, 6);
+            this.panel1.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(200, 85);
+            this.panel1.Size = new System.Drawing.Size(400, 163);
             this.panel1.TabIndex = 0;
             // 
             // lblstate
@@ -348,18 +364,19 @@
             this.lblstate.AutoSize = true;
             this.lblstate.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblstate.ForeColor = System.Drawing.Color.Red;
-            this.lblstate.Location = new System.Drawing.Point(662, 0);
+            this.lblstate.Location = new System.Drawing.Point(1324, 0);
+            this.lblstate.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.lblstate.Name = "lblstate";
-            this.lblstate.Size = new System.Drawing.Size(180, 91);
+            this.lblstate.Size = new System.Drawing.Size(358, 175);
             this.lblstate.TabIndex = 196;
             this.lblstate.Text = " Description of state";
             // 
             // FormTransaction
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(207)))), ((int)(((byte)(206)))), ((int)(((byte)(252)))));
-            this.ClientSize = new System.Drawing.Size(1111, 693);
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.ClientSize = new System.Drawing.Size(2222, 1333);
             this.Controls.Add(this.flowLayoutPanel1);
             this.Controls.Add(this.dateTwo);
             this.Controls.Add(this.dateOne);
@@ -374,6 +391,7 @@
             this.Controls.Add(this.btnSearch);
             this.Controls.Add(this.txtInvoice);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.Name = "FormTransaction";
             this.Text = "Transaction";
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewTransaction)).EndInit();
