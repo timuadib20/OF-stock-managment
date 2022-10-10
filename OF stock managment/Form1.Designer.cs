@@ -49,7 +49,6 @@
             this.btnRecycleTransaction = new System.Windows.Forms.Button();
             this.btnRecycleProduct = new System.Windows.Forms.Button();
             this.btnRecycle = new System.Windows.Forms.Button();
-            this.pnlNavv = new System.Windows.Forms.Panel();
             this.btnSupplier = new System.Windows.Forms.Button();
             this.pnlTransaction = new System.Windows.Forms.Panel();
             this.button2 = new System.Windows.Forms.Button();
@@ -217,11 +216,10 @@
             // 
             this.panelMenuBar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(63)))), ((int)(((byte)(74)))));
             this.panelMenuBar.Controls.Add(this.pnlImport);
+            this.panelMenuBar.Controls.Add(this.pnlTransaction);
             this.panelMenuBar.Controls.Add(this.btnBackup);
             this.panelMenuBar.Controls.Add(this.pnlRecycle);
-            this.panelMenuBar.Controls.Add(this.pnlNavv);
             this.panelMenuBar.Controls.Add(this.btnSupplier);
-            this.panelMenuBar.Controls.Add(this.pnlTransaction);
             this.panelMenuBar.Controls.Add(this.btnProducts);
             this.panelMenuBar.Controls.Add(this.btnDashboard);
             this.panelMenuBar.Controls.Add(this.panel2);
@@ -240,7 +238,7 @@
             this.pnlImport.Controls.Add(this.btnImportProduct);
             this.pnlImport.Controls.Add(this.btnImport);
             this.pnlImport.Dock = System.Windows.Forms.DockStyle.Top;
-            this.pnlImport.Location = new System.Drawing.Point(0, 676);
+            this.pnlImport.Location = new System.Drawing.Point(0, 639);
             this.pnlImport.Margin = new System.Windows.Forms.Padding(6);
             this.pnlImport.MaximumSize = new System.Drawing.Size(400, 221);
             this.pnlImport.MinimumSize = new System.Drawing.Size(400, 77);
@@ -320,7 +318,7 @@
             this.btnBackup.Font = new System.Drawing.Font("Segoe UI", 14.25F);
             this.btnBackup.ForeColor = System.Drawing.Color.Gainsboro;
             this.btnBackup.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnBackup.Location = new System.Drawing.Point(0, 588);
+            this.btnBackup.Location = new System.Drawing.Point(0, 551);
             this.btnBackup.Margin = new System.Windows.Forms.Padding(6);
             this.btnBackup.Name = "btnBackup";
             this.btnBackup.Padding = new System.Windows.Forms.Padding(50, 0, 0, 0);
@@ -338,7 +336,7 @@
             this.pnlRecycle.Controls.Add(this.btnRecycleProduct);
             this.pnlRecycle.Controls.Add(this.btnRecycle);
             this.pnlRecycle.Dock = System.Windows.Forms.DockStyle.Top;
-            this.pnlRecycle.Location = new System.Drawing.Point(0, 500);
+            this.pnlRecycle.Location = new System.Drawing.Point(0, 463);
             this.pnlRecycle.Margin = new System.Windows.Forms.Padding(6);
             this.pnlRecycle.MaximumSize = new System.Drawing.Size(400, 363);
             this.pnlRecycle.MinimumSize = new System.Drawing.Size(400, 88);
@@ -427,16 +425,6 @@
             this.btnRecycle.UseVisualStyleBackColor = true;
             this.btnRecycle.Click += new System.EventHandler(this.btnRecycle_Click);
             // 
-            // pnlNavv
-            // 
-            this.pnlNavv.BackColor = System.Drawing.Color.White;
-            this.pnlNavv.Location = new System.Drawing.Point(0, 402);
-            this.pnlNavv.Margin = new System.Windows.Forms.Padding(6);
-            this.pnlNavv.Name = "pnlNavv";
-            this.pnlNavv.Size = new System.Drawing.Size(10, 192);
-            this.pnlNavv.TabIndex = 28;
-            this.pnlNavv.Visible = false;
-            // 
             // btnSupplier
             // 
             this.btnSupplier.AllowDrop = true;
@@ -446,7 +434,7 @@
             this.btnSupplier.Font = new System.Drawing.Font("Segoe UI", 14.25F);
             this.btnSupplier.ForeColor = System.Drawing.Color.Gainsboro;
             this.btnSupplier.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnSupplier.Location = new System.Drawing.Point(0, 412);
+            this.btnSupplier.Location = new System.Drawing.Point(0, 375);
             this.btnSupplier.Margin = new System.Windows.Forms.Padding(6);
             this.btnSupplier.Name = "btnSupplier";
             this.btnSupplier.Padding = new System.Windows.Forms.Padding(50, 0, 0, 0);
@@ -464,7 +452,7 @@
             this.pnlTransaction.Controls.Add(this.btnSells);
             this.pnlTransaction.Controls.Add(this.btnPurchase);
             this.pnlTransaction.Controls.Add(this.btnTransaction);
-            this.pnlTransaction.Location = new System.Drawing.Point(6, 862);
+            this.pnlTransaction.Location = new System.Drawing.Point(6, 764);
             this.pnlTransaction.Margin = new System.Windows.Forms.Padding(6);
             this.pnlTransaction.MaximumSize = new System.Drawing.Size(400, 327);
             this.pnlTransaction.MinimumSize = new System.Drawing.Size(400, 88);
@@ -554,7 +542,7 @@
             this.btnProducts.Margin = new System.Windows.Forms.Padding(6);
             this.btnProducts.Name = "btnProducts";
             this.btnProducts.Padding = new System.Windows.Forms.Padding(50, 0, 0, 0);
-            this.btnProducts.Size = new System.Drawing.Size(400, 128);
+            this.btnProducts.Size = new System.Drawing.Size(400, 91);
             this.btnProducts.TabIndex = 27;
             this.btnProducts.Text = "Products";
             this.btnProducts.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -801,7 +789,6 @@
         private System.Windows.Forms.Button btnPurchase;
         private System.Windows.Forms.Button btnTransaction;
         private System.Windows.Forms.Label lblTitle;
-        private System.Windows.Forms.Panel pnlNavv;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Panel panelDesktopPan;
         private System.Windows.Forms.Panel pnlNotification;

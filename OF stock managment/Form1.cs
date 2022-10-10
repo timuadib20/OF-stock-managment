@@ -82,7 +82,7 @@ namespace OF_stock_managment
                 {
                     if (previosBtn.GetType() == typeof(Button))
                     {
-                        previosBtn.BackColor = Color.FromArgb(0, 18, 25);
+                        previosBtn.BackColor = Color.FromArgb(36, 63, 74);
                         previosBtn.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
                     }
                 }

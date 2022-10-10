@@ -65,8 +65,8 @@
             this.btnDelete.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnDelete.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnDelete.ForeColor = System.Drawing.Color.White;
-            this.btnDelete.Location = new System.Drawing.Point(1022, 58);
-            this.btnDelete.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.btnDelete.Location = new System.Drawing.Point(720, 58);
+            this.btnDelete.Margin = new System.Windows.Forms.Padding(6);
             this.btnDelete.Name = "btnDelete";
             this.btnDelete.Size = new System.Drawing.Size(290, 58);
             this.btnDelete.TabIndex = 27;
@@ -83,8 +83,8 @@
             this.btnEdit.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnEdit.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnEdit.ForeColor = System.Drawing.Color.White;
-            this.btnEdit.Location = new System.Drawing.Point(720, 58);
-            this.btnEdit.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.btnEdit.Location = new System.Drawing.Point(1022, 58);
+            this.btnEdit.Margin = new System.Windows.Forms.Padding(6);
             this.btnEdit.Name = "btnEdit";
             this.btnEdit.Size = new System.Drawing.Size(290, 58);
             this.btnEdit.TabIndex = 26;
@@ -187,7 +187,7 @@
             this.dateTworvf.Format = System.Windows.Forms.DateTimePickerFormat.Long;
             this.dateTworvf.FormatCustom = null;
             this.dateTworvf.Location = new System.Drawing.Point(1350, 358);
-            this.dateTworvf.Margin = new System.Windows.Forms.Padding(12, 12, 12, 12);
+            this.dateTworvf.Margin = new System.Windows.Forms.Padding(12);
             this.dateTworvf.Name = "dateTworvf";
             this.dateTworvf.Size = new System.Drawing.Size(380, 48);
             this.dateTworvf.TabIndex = 82;
@@ -214,7 +214,7 @@
             this.btnSet.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnSet.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(63)))), ((int)(((byte)(74)))));
             this.btnSet.Location = new System.Drawing.Point(1798, 77);
-            this.btnSet.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.btnSet.Margin = new System.Windows.Forms.Padding(6);
             this.btnSet.Name = "btnSet";
             this.btnSet.Size = new System.Drawing.Size(244, 58);
             this.btnSet.TabIndex = 86;
@@ -230,7 +230,7 @@
             this.btnSearch.FlatAppearance.BorderSize = 0;
             this.btnSearch.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnSearch.Location = new System.Drawing.Point(724, 75);
-            this.btnSearch.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.btnSearch.Margin = new System.Windows.Forms.Padding(6);
             this.btnSearch.Name = "btnSearch";
             this.btnSearch.Size = new System.Drawing.Size(82, 56);
             this.btnSearch.TabIndex = 22;
@@ -273,7 +273,7 @@
             this.dataGridViewTransaction.HeaderBgColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(63)))), ((int)(((byte)(74)))));
             this.dataGridViewTransaction.HeaderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.dataGridViewTransaction.Location = new System.Drawing.Point(2, 175);
-            this.dataGridViewTransaction.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.dataGridViewTransaction.Margin = new System.Windows.Forms.Padding(6);
             this.dataGridViewTransaction.Name = "dataGridViewTransaction";
             this.dataGridViewTransaction.ReadOnly = true;
             this.dataGridViewTransaction.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
@@ -310,7 +310,7 @@
             this.btnExport.ForeColor = System.Drawing.Color.White;
             this.btnExport.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnExport.Location = new System.Drawing.Point(418, 58);
-            this.btnExport.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.btnExport.Margin = new System.Windows.Forms.Padding(6);
             this.btnExport.Name = "btnExport";
             this.btnExport.Size = new System.Drawing.Size(290, 58);
             this.btnExport.TabIndex = 88;
@@ -321,7 +321,7 @@
             // dateOne
             // 
             this.dateOne.Location = new System.Drawing.Point(850, 81);
-            this.dateOne.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.dateOne.Margin = new System.Windows.Forms.Padding(6);
             this.dateOne.Name = "dateOne";
             this.dateOne.Size = new System.Drawing.Size(396, 31);
             this.dateOne.TabIndex = 158;
@@ -329,7 +329,7 @@
             // dateTwo
             // 
             this.dateTwo.Location = new System.Drawing.Point(1302, 81);
-            this.dateTwo.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.dateTwo.Margin = new System.Windows.Forms.Padding(6);
             this.dateTwo.Name = "dateTwo";
             this.dateTwo.Size = new System.Drawing.Size(396, 31);
             this.dateTwo.TabIndex = 159;
@@ -338,12 +338,12 @@
             // 
             this.flowLayoutPanel1.Controls.Add(this.panel1);
             this.flowLayoutPanel1.Controls.Add(this.btnExport);
-            this.flowLayoutPanel1.Controls.Add(this.btnEdit);
             this.flowLayoutPanel1.Controls.Add(this.btnDelete);
+            this.flowLayoutPanel1.Controls.Add(this.btnEdit);
             this.flowLayoutPanel1.Controls.Add(this.lblstate);
             this.flowLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.flowLayoutPanel1.Location = new System.Drawing.Point(0, 1141);
-            this.flowLayoutPanel1.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.flowLayoutPanel1.Margin = new System.Windows.Forms.Padding(6);
             this.flowLayoutPanel1.Name = "flowLayoutPanel1";
             this.flowLayoutPanel1.Size = new System.Drawing.Size(2222, 192);
             this.flowLayoutPanel1.TabIndex = 160;
@@ -351,7 +351,7 @@
             // panel1
             // 
             this.panel1.Location = new System.Drawing.Point(6, 6);
-            this.panel1.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.panel1.Margin = new System.Windows.Forms.Padding(6);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(400, 163);
             this.panel1.TabIndex = 0;
@@ -391,7 +391,7 @@
             this.Controls.Add(this.btnSearch);
             this.Controls.Add(this.txtInvoice);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.Margin = new System.Windows.Forms.Padding(6);
             this.Name = "FormTransaction";
             this.Text = "Transaction";
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewTransaction)).EndInit();
@@ -424,6 +424,5 @@
         private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel1;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Label lblstate;
-
     }
 }

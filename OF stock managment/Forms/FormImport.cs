@@ -53,11 +53,11 @@ namespace OF_stock_managment.Forms
                 adptr.Fill(dt);
                 
                 datagridImport.DataSource = dt;
-                datagridImport.Columns[0].HeaderText = "Item Code";
-                datagridImport.Columns[1].HeaderText = "Describtion";
+               datagridImport.Columns[0].HeaderText = "Item Code";
+              //  datagridImport.Columns[1].HeaderText = "Describtion";
                 datagridImport.Columns[2].HeaderText = "UMO";
-                datagridImport.Columns[3].HeaderText = "Quantity";
-                datagridImport.Columns[4].HeaderText = "U_Price";
+               datagridImport.Columns[2].HeaderText = "Quantity";
+               datagridImport.Columns[3].HeaderText = "U_Price";
 
             }
             catch (OleDbException o)
@@ -159,23 +159,28 @@ namespace OF_stock_managment.Forms
 
             Item itm;
             double unitPrice = 0;
+            double quty = 0.00;
             FormProducts ii = new FormProducts();
             string state="";
 
             try
             {
-                for (int i = 0; i <= (datagridImport.Rows.Count - 1); i++)
+                for (int i = 0; i <= (datagridImport.Rows.Count - 2); i++)
                 {
-                    if ((double.TryParse(datagridImport.Rows[i].Cells["f5"].Value.ToString(), out unitPrice)))
+                    if ((double.TryParse(datagridImport.Rows[i].Cells["F4"].Value.ToString(), out unitPrice)))
                     {
-                        unitPrice = Convert.ToDouble(datagridImport.Rows[i].Cells["f5"].Value.ToString());
+                        unitPrice = Convert.ToDouble(datagridImport.Rows[i].Cells["F4"].Value.ToString());
                     }
-                    
+                    if ((double.TryParse(datagridImport.Rows[i].Cells["F3"].Value.ToString(), out quty)))
+                    {
+                        quty = Convert.ToDouble(datagridImport.Rows[i].Cells["F3"].Value.ToString());
+                    }
 
-                       // MessageBox.Show(i + " pstion");
-                            itm = new Item(datagridImport.Rows[i].Cells["f1"].Value.ToString(),
-                          datagridImport.Rows[i].Cells["f2"].Value.ToString(),
-                          Convert.ToDouble(datagridImport.Rows[i].Cells["f4"].Value.ToString()),
+
+                    // MessageBox.Show(i + " pstion");
+                    itm = new Item(datagridImport.Rows[i].Cells["F1"].Value.ToString(),
+                          datagridImport.Rows[i].Cells["F2"].Value.ToString(),
+                          quty,
                           cmbUOM.Text,
                           cmbBrand.Text,
                            unitPrice,

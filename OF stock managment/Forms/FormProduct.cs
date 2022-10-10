@@ -151,6 +151,6 @@ namespace OF_stock_managment.Forms
 
         }
 
-        
+       
     }
 }
