@@ -33,17 +33,25 @@ namespace OF_stock_managment
             try
             {
                 openConnection();
-                SqlCommand cmd = new SqlCommand("uspInsertSupplier", conn);
-                cmd.CommandType = CommandType.StoredProcedure;
-                cmd.Parameters.AddWithValue("@tinumber", s.Tinnumber);
-                cmd.Parameters.AddWithValue("@suppliername", s.SupplierName);
-                cmd.Parameters.AddWithValue("@date", s.Date);
-                int row = cmd.ExecuteNonQuery();
-                if (row > 0)
-                    state="Saved succesfully! ";
+                if ( s.Tinnumber.ToString().Length == 10)
+                {
+                    SqlCommand cmd = new SqlCommand("uspInsertSupplier", conn);
+                    cmd.CommandType = CommandType.StoredProcedure;
+                    cmd.Parameters.AddWithValue("@tinumber", s.Tinnumber);
+                    cmd.Parameters.AddWithValue("@suppliername", s.SupplierName);
+                    cmd.Parameters.AddWithValue("@date", s.Date);
+                    int row = cmd.ExecuteNonQuery();
+                    if (row > 0)
+                        state = "Saved succesfully! ";
+                    else
+                        state = "ERROR! ";
+                    closeConnection();
+                }
                 else
-                    state="ERROR! ";
-                closeConnection();
+                {
+                    state = "TinNumber is 10 digits only";
+                }
+               
             }
             catch (SqlException e)
             {
