@@ -39,6 +39,24 @@
             this.btnClose = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
             this.panelMenuBar = new System.Windows.Forms.Panel();
+            this.btnBackup = new System.Windows.Forms.Button();
+            this.pnlImport = new System.Windows.Forms.Panel();
+            this.BtnImportPurchase = new System.Windows.Forms.Button();
+            this.btnImportProduct = new System.Windows.Forms.Button();
+            this.btnImport = new System.Windows.Forms.Button();
+            this.pnlRecycle = new System.Windows.Forms.Panel();
+            this.btnRecycleSupplier = new System.Windows.Forms.Button();
+            this.btnRecycleTransaction = new System.Windows.Forms.Button();
+            this.btnRecycleProduct = new System.Windows.Forms.Button();
+            this.btnRecycle = new System.Windows.Forms.Button();
+            this.pnlTransaction = new System.Windows.Forms.Panel();
+            this.button2 = new System.Windows.Forms.Button();
+            this.btnSells = new System.Windows.Forms.Button();
+            this.btnPurchase = new System.Windows.Forms.Button();
+            this.btnTransaction = new System.Windows.Forms.Button();
+            this.btnSupplier = new System.Windows.Forms.Button();
+            this.btnProducts = new System.Windows.Forms.Button();
+            this.btnDashboard = new System.Windows.Forms.Button();
             this.panel2 = new System.Windows.Forms.Panel();
             this.btnLogout = new System.Windows.Forms.Button();
             this.bunifuElipse1 = new Bunifu.Framework.UI.BunifuElipse(this.components);
@@ -53,35 +71,17 @@
             this.lblLowItems = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
-            this.btnDashboard = new System.Windows.Forms.Button();
-            this.btnProducts = new System.Windows.Forms.Button();
-            this.btnSupplier = new System.Windows.Forms.Button();
-            this.pnlTransaction = new System.Windows.Forms.Panel();
-            this.button2 = new System.Windows.Forms.Button();
-            this.btnSells = new System.Windows.Forms.Button();
-            this.btnPurchase = new System.Windows.Forms.Button();
-            this.btnTransaction = new System.Windows.Forms.Button();
-            this.pnlRecycle = new System.Windows.Forms.Panel();
-            this.btnRecycleSupplier = new System.Windows.Forms.Button();
-            this.btnRecycleTransaction = new System.Windows.Forms.Button();
-            this.btnRecycleProduct = new System.Windows.Forms.Button();
-            this.btnRecycle = new System.Windows.Forms.Button();
-            this.pnlImport = new System.Windows.Forms.Panel();
-            this.BtnImportPurchase = new System.Windows.Forms.Button();
-            this.btnImportProduct = new System.Windows.Forms.Button();
-            this.btnImport = new System.Windows.Forms.Button();
-            this.btnBackup = new System.Windows.Forms.Button();
             this.panelTopbar.SuspendLayout();
             this.panel1.SuspendLayout();
             this.panelMenuBar.SuspendLayout();
+            this.pnlImport.SuspendLayout();
+            this.pnlRecycle.SuspendLayout();
+            this.pnlTransaction.SuspendLayout();
             this.panelDesktopPan.SuspendLayout();
             this.pnlNotification.SuspendLayout();
             this.panel3.SuspendLayout();
             this.pnlHighItems.SuspendLayout();
             this.pnlLowItem.SuspendLayout();
-            this.pnlTransaction.SuspendLayout();
-            this.pnlRecycle.SuspendLayout();
-            this.pnlImport.SuspendLayout();
             this.SuspendLayout();
             // 
             // panelTopbar
@@ -229,6 +229,341 @@
             this.panelMenuBar.Name = "panelMenuBar";
             this.panelMenuBar.Size = new System.Drawing.Size(400, 1131);
             this.panelMenuBar.TabIndex = 1;
+            // 
+            // btnBackup
+            // 
+            this.btnBackup.AllowDrop = true;
+            this.btnBackup.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btnBackup.FlatAppearance.BorderSize = 0;
+            this.btnBackup.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnBackup.Font = new System.Drawing.Font("Segoe UI", 14.25F);
+            this.btnBackup.ForeColor = System.Drawing.Color.Gainsboro;
+            this.btnBackup.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnBackup.Location = new System.Drawing.Point(0, 704);
+            this.btnBackup.Margin = new System.Windows.Forms.Padding(6);
+            this.btnBackup.Name = "btnBackup";
+            this.btnBackup.Padding = new System.Windows.Forms.Padding(50, 0, 0, 0);
+            this.btnBackup.Size = new System.Drawing.Size(400, 88);
+            this.btnBackup.TabIndex = 34;
+            this.btnBackup.Text = "Backup";
+            this.btnBackup.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnBackup.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.btnBackup.UseVisualStyleBackColor = true;
+            // 
+            // pnlImport
+            // 
+            this.pnlImport.Controls.Add(this.BtnImportPurchase);
+            this.pnlImport.Controls.Add(this.btnImportProduct);
+            this.pnlImport.Controls.Add(this.btnImport);
+            this.pnlImport.Dock = System.Windows.Forms.DockStyle.Top;
+            this.pnlImport.Location = new System.Drawing.Point(0, 627);
+            this.pnlImport.Margin = new System.Windows.Forms.Padding(6);
+            this.pnlImport.MaximumSize = new System.Drawing.Size(400, 221);
+            this.pnlImport.MinimumSize = new System.Drawing.Size(400, 77);
+            this.pnlImport.Name = "pnlImport";
+            this.pnlImport.Size = new System.Drawing.Size(400, 77);
+            this.pnlImport.TabIndex = 33;
+            // 
+            // BtnImportPurchase
+            // 
+            this.BtnImportPurchase.AllowDrop = true;
+            this.BtnImportPurchase.Dock = System.Windows.Forms.DockStyle.Top;
+            this.BtnImportPurchase.FlatAppearance.BorderSize = 0;
+            this.BtnImportPurchase.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.BtnImportPurchase.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BtnImportPurchase.ForeColor = System.Drawing.Color.Gainsboro;
+            this.BtnImportPurchase.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.BtnImportPurchase.Location = new System.Drawing.Point(0, 142);
+            this.BtnImportPurchase.Margin = new System.Windows.Forms.Padding(6);
+            this.BtnImportPurchase.Name = "BtnImportPurchase";
+            this.BtnImportPurchase.Padding = new System.Windows.Forms.Padding(50, 0, 0, 0);
+            this.BtnImportPurchase.Size = new System.Drawing.Size(400, 77);
+            this.BtnImportPurchase.TabIndex = 29;
+            this.BtnImportPurchase.Text = "Import Purchase";
+            this.BtnImportPurchase.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.BtnImportPurchase.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.BtnImportPurchase.UseVisualStyleBackColor = true;
+            this.BtnImportPurchase.Click += new System.EventHandler(this.BtnImportPurchase_Click_1);
+            // 
+            // btnImportProduct
+            // 
+            this.btnImportProduct.AllowDrop = true;
+            this.btnImportProduct.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btnImportProduct.FlatAppearance.BorderSize = 0;
+            this.btnImportProduct.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnImportProduct.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnImportProduct.ForeColor = System.Drawing.Color.Gainsboro;
+            this.btnImportProduct.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnImportProduct.Location = new System.Drawing.Point(0, 77);
+            this.btnImportProduct.Margin = new System.Windows.Forms.Padding(6);
+            this.btnImportProduct.Name = "btnImportProduct";
+            this.btnImportProduct.Padding = new System.Windows.Forms.Padding(50, 0, 0, 0);
+            this.btnImportProduct.Size = new System.Drawing.Size(400, 65);
+            this.btnImportProduct.TabIndex = 28;
+            this.btnImportProduct.Text = "Import Product";
+            this.btnImportProduct.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnImportProduct.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.btnImportProduct.UseVisualStyleBackColor = true;
+            this.btnImportProduct.Click += new System.EventHandler(this.btnImportProduct_Click_1);
+            // 
+            // btnImport
+            // 
+            this.btnImport.AllowDrop = true;
+            this.btnImport.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btnImport.FlatAppearance.BorderSize = 0;
+            this.btnImport.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnImport.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnImport.ForeColor = System.Drawing.Color.Gainsboro;
+            this.btnImport.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnImport.Location = new System.Drawing.Point(0, 0);
+            this.btnImport.Margin = new System.Windows.Forms.Padding(6);
+            this.btnImport.Name = "btnImport";
+            this.btnImport.Padding = new System.Windows.Forms.Padding(50, 0, 0, 0);
+            this.btnImport.Size = new System.Drawing.Size(400, 77);
+            this.btnImport.TabIndex = 27;
+            this.btnImport.Text = "Import";
+            this.btnImport.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnImport.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.btnImport.UseVisualStyleBackColor = true;
+            this.btnImport.Click += new System.EventHandler(this.btnImport_Click_1);
+            // 
+            // pnlRecycle
+            // 
+            this.pnlRecycle.Controls.Add(this.btnRecycleSupplier);
+            this.pnlRecycle.Controls.Add(this.btnRecycleTransaction);
+            this.pnlRecycle.Controls.Add(this.btnRecycleProduct);
+            this.pnlRecycle.Controls.Add(this.btnRecycle);
+            this.pnlRecycle.Dock = System.Windows.Forms.DockStyle.Top;
+            this.pnlRecycle.Location = new System.Drawing.Point(0, 539);
+            this.pnlRecycle.Margin = new System.Windows.Forms.Padding(6);
+            this.pnlRecycle.MaximumSize = new System.Drawing.Size(400, 363);
+            this.pnlRecycle.MinimumSize = new System.Drawing.Size(400, 88);
+            this.pnlRecycle.Name = "pnlRecycle";
+            this.pnlRecycle.Size = new System.Drawing.Size(400, 88);
+            this.pnlRecycle.TabIndex = 32;
+            // 
+            // btnRecycleSupplier
+            // 
+            this.btnRecycleSupplier.AllowDrop = true;
+            this.btnRecycleSupplier.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btnRecycleSupplier.FlatAppearance.BorderSize = 0;
+            this.btnRecycleSupplier.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnRecycleSupplier.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnRecycleSupplier.ForeColor = System.Drawing.Color.Gainsboro;
+            this.btnRecycleSupplier.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnRecycleSupplier.Location = new System.Drawing.Point(0, 264);
+            this.btnRecycleSupplier.Margin = new System.Windows.Forms.Padding(6);
+            this.btnRecycleSupplier.Name = "btnRecycleSupplier";
+            this.btnRecycleSupplier.Padding = new System.Windows.Forms.Padding(50, 0, 0, 0);
+            this.btnRecycleSupplier.Size = new System.Drawing.Size(400, 88);
+            this.btnRecycleSupplier.TabIndex = 33;
+            this.btnRecycleSupplier.Text = "Supplier";
+            this.btnRecycleSupplier.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.btnRecycleSupplier.UseVisualStyleBackColor = true;
+            // 
+            // btnRecycleTransaction
+            // 
+            this.btnRecycleTransaction.AllowDrop = true;
+            this.btnRecycleTransaction.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btnRecycleTransaction.FlatAppearance.BorderSize = 0;
+            this.btnRecycleTransaction.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnRecycleTransaction.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnRecycleTransaction.ForeColor = System.Drawing.Color.Gainsboro;
+            this.btnRecycleTransaction.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnRecycleTransaction.Location = new System.Drawing.Point(0, 176);
+            this.btnRecycleTransaction.Margin = new System.Windows.Forms.Padding(6);
+            this.btnRecycleTransaction.Name = "btnRecycleTransaction";
+            this.btnRecycleTransaction.Padding = new System.Windows.Forms.Padding(50, 0, 0, 0);
+            this.btnRecycleTransaction.Size = new System.Drawing.Size(400, 88);
+            this.btnRecycleTransaction.TabIndex = 32;
+            this.btnRecycleTransaction.Text = "Transaction";
+            this.btnRecycleTransaction.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.btnRecycleTransaction.UseVisualStyleBackColor = true;
+            // 
+            // btnRecycleProduct
+            // 
+            this.btnRecycleProduct.AllowDrop = true;
+            this.btnRecycleProduct.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btnRecycleProduct.FlatAppearance.BorderSize = 0;
+            this.btnRecycleProduct.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnRecycleProduct.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnRecycleProduct.ForeColor = System.Drawing.Color.Gainsboro;
+            this.btnRecycleProduct.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnRecycleProduct.Location = new System.Drawing.Point(0, 88);
+            this.btnRecycleProduct.Margin = new System.Windows.Forms.Padding(6);
+            this.btnRecycleProduct.Name = "btnRecycleProduct";
+            this.btnRecycleProduct.Padding = new System.Windows.Forms.Padding(50, 0, 0, 0);
+            this.btnRecycleProduct.Size = new System.Drawing.Size(400, 88);
+            this.btnRecycleProduct.TabIndex = 31;
+            this.btnRecycleProduct.Text = "Product";
+            this.btnRecycleProduct.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.btnRecycleProduct.UseVisualStyleBackColor = true;
+            // 
+            // btnRecycle
+            // 
+            this.btnRecycle.AllowDrop = true;
+            this.btnRecycle.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btnRecycle.FlatAppearance.BorderSize = 0;
+            this.btnRecycle.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnRecycle.Font = new System.Drawing.Font("Segoe UI", 14.25F);
+            this.btnRecycle.ForeColor = System.Drawing.Color.Gainsboro;
+            this.btnRecycle.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnRecycle.Location = new System.Drawing.Point(0, 0);
+            this.btnRecycle.Margin = new System.Windows.Forms.Padding(6);
+            this.btnRecycle.Name = "btnRecycle";
+            this.btnRecycle.Padding = new System.Windows.Forms.Padding(50, 0, 0, 0);
+            this.btnRecycle.Size = new System.Drawing.Size(400, 88);
+            this.btnRecycle.TabIndex = 30;
+            this.btnRecycle.Text = "History";
+            this.btnRecycle.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnRecycle.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.btnRecycle.UseVisualStyleBackColor = true;
+            // 
+            // pnlTransaction
+            // 
+            this.pnlTransaction.Controls.Add(this.button2);
+            this.pnlTransaction.Controls.Add(this.btnSells);
+            this.pnlTransaction.Controls.Add(this.btnPurchase);
+            this.pnlTransaction.Controls.Add(this.btnTransaction);
+            this.pnlTransaction.Dock = System.Windows.Forms.DockStyle.Top;
+            this.pnlTransaction.Location = new System.Drawing.Point(0, 451);
+            this.pnlTransaction.Margin = new System.Windows.Forms.Padding(6);
+            this.pnlTransaction.MaximumSize = new System.Drawing.Size(400, 327);
+            this.pnlTransaction.MinimumSize = new System.Drawing.Size(400, 88);
+            this.pnlTransaction.Name = "pnlTransaction";
+            this.pnlTransaction.Size = new System.Drawing.Size(400, 88);
+            this.pnlTransaction.TabIndex = 31;
+            // 
+            // button2
+            // 
+            this.button2.Dock = System.Windows.Forms.DockStyle.Top;
+            this.button2.FlatAppearance.BorderSize = 0;
+            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button2.Font = new System.Drawing.Font("Segoe UI", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button2.ForeColor = System.Drawing.Color.Gainsboro;
+            this.button2.Location = new System.Drawing.Point(0, 242);
+            this.button2.Margin = new System.Windows.Forms.Padding(6);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(400, 77);
+            this.button2.TabIndex = 29;
+            this.button2.Text = "View";
+            this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click_1);
+            // 
+            // btnSells
+            // 
+            this.btnSells.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btnSells.FlatAppearance.BorderSize = 0;
+            this.btnSells.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnSells.Font = new System.Drawing.Font("Segoe UI", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSells.ForeColor = System.Drawing.Color.Gainsboro;
+            this.btnSells.Location = new System.Drawing.Point(0, 165);
+            this.btnSells.Margin = new System.Windows.Forms.Padding(6);
+            this.btnSells.Name = "btnSells";
+            this.btnSells.Size = new System.Drawing.Size(400, 77);
+            this.btnSells.TabIndex = 28;
+            this.btnSells.Text = "Sales";
+            this.btnSells.UseVisualStyleBackColor = true;
+            this.btnSells.Click += new System.EventHandler(this.btnSells_Click_1);
+            // 
+            // btnPurchase
+            // 
+            this.btnPurchase.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btnPurchase.FlatAppearance.BorderSize = 0;
+            this.btnPurchase.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnPurchase.Font = new System.Drawing.Font("Segoe UI", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnPurchase.ForeColor = System.Drawing.Color.Gainsboro;
+            this.btnPurchase.Location = new System.Drawing.Point(0, 88);
+            this.btnPurchase.Margin = new System.Windows.Forms.Padding(6);
+            this.btnPurchase.Name = "btnPurchase";
+            this.btnPurchase.Size = new System.Drawing.Size(400, 77);
+            this.btnPurchase.TabIndex = 27;
+            this.btnPurchase.Text = "Purchase";
+            this.btnPurchase.UseVisualStyleBackColor = true;
+            this.btnPurchase.Click += new System.EventHandler(this.btnPurchase_Click);
+            // 
+            // btnTransaction
+            // 
+            this.btnTransaction.AllowDrop = true;
+            this.btnTransaction.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btnTransaction.FlatAppearance.BorderSize = 0;
+            this.btnTransaction.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnTransaction.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnTransaction.ForeColor = System.Drawing.Color.Gainsboro;
+            this.btnTransaction.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnTransaction.Location = new System.Drawing.Point(0, 0);
+            this.btnTransaction.Margin = new System.Windows.Forms.Padding(6);
+            this.btnTransaction.Name = "btnTransaction";
+            this.btnTransaction.Padding = new System.Windows.Forms.Padding(50, 0, 0, 0);
+            this.btnTransaction.Size = new System.Drawing.Size(400, 88);
+            this.btnTransaction.TabIndex = 26;
+            this.btnTransaction.Text = "Transaction";
+            this.btnTransaction.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnTransaction.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.btnTransaction.UseVisualStyleBackColor = true;
+            this.btnTransaction.Click += new System.EventHandler(this.btnTransaction_Click_2);
+            // 
+            // btnSupplier
+            // 
+            this.btnSupplier.AllowDrop = true;
+            this.btnSupplier.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btnSupplier.FlatAppearance.BorderSize = 0;
+            this.btnSupplier.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnSupplier.Font = new System.Drawing.Font("Segoe UI", 14.25F);
+            this.btnSupplier.ForeColor = System.Drawing.Color.Gainsboro;
+            this.btnSupplier.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnSupplier.Location = new System.Drawing.Point(0, 363);
+            this.btnSupplier.Margin = new System.Windows.Forms.Padding(6);
+            this.btnSupplier.Name = "btnSupplier";
+            this.btnSupplier.Padding = new System.Windows.Forms.Padding(50, 0, 0, 0);
+            this.btnSupplier.Size = new System.Drawing.Size(400, 88);
+            this.btnSupplier.TabIndex = 30;
+            this.btnSupplier.Text = "Supplier";
+            this.btnSupplier.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnSupplier.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.btnSupplier.UseVisualStyleBackColor = true;
+            this.btnSupplier.Click += new System.EventHandler(this.btnSupplier_Click_2);
+            // 
+            // btnProducts
+            // 
+            this.btnProducts.AllowDrop = true;
+            this.btnProducts.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btnProducts.FlatAppearance.BorderSize = 0;
+            this.btnProducts.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnProducts.Font = new System.Drawing.Font("Segoe UI", 14.25F);
+            this.btnProducts.ForeColor = System.Drawing.Color.Gainsboro;
+            this.btnProducts.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnProducts.Location = new System.Drawing.Point(0, 284);
+            this.btnProducts.Margin = new System.Windows.Forms.Padding(6);
+            this.btnProducts.Name = "btnProducts";
+            this.btnProducts.Padding = new System.Windows.Forms.Padding(50, 0, 0, 0);
+            this.btnProducts.Size = new System.Drawing.Size(400, 79);
+            this.btnProducts.TabIndex = 29;
+            this.btnProducts.Text = "Products";
+            this.btnProducts.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnProducts.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.btnProducts.UseVisualStyleBackColor = true;
+            this.btnProducts.Click += new System.EventHandler(this.btnProducts_Click_2);
+            // 
+            // btnDashboard
+            // 
+            this.btnDashboard.AllowDrop = true;
+            this.btnDashboard.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btnDashboard.FlatAppearance.BorderSize = 0;
+            this.btnDashboard.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnDashboard.Font = new System.Drawing.Font("Segoe UI", 14.25F);
+            this.btnDashboard.ForeColor = System.Drawing.Color.Gainsboro;
+            this.btnDashboard.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnDashboard.Location = new System.Drawing.Point(0, 196);
+            this.btnDashboard.Margin = new System.Windows.Forms.Padding(6);
+            this.btnDashboard.Name = "btnDashboard";
+            this.btnDashboard.Padding = new System.Windows.Forms.Padding(50, 0, 0, 0);
+            this.btnDashboard.Size = new System.Drawing.Size(400, 88);
+            this.btnDashboard.TabIndex = 24;
+            this.btnDashboard.Text = "Dashboard";
+            this.btnDashboard.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnDashboard.UseVisualStyleBackColor = true;
+            this.btnDashboard.Visible = false;
             // 
             // panel2
             // 
@@ -386,332 +721,6 @@
             this.label1.Size = new System.Drawing.Size(0, 45);
             this.label1.TabIndex = 0;
             // 
-            // btnDashboard
-            // 
-            this.btnDashboard.AllowDrop = true;
-            this.btnDashboard.Dock = System.Windows.Forms.DockStyle.Top;
-            this.btnDashboard.FlatAppearance.BorderSize = 0;
-            this.btnDashboard.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnDashboard.Font = new System.Drawing.Font("Segoe UI", 14.25F);
-            this.btnDashboard.ForeColor = System.Drawing.Color.Gainsboro;
-            this.btnDashboard.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnDashboard.Location = new System.Drawing.Point(0, 196);
-            this.btnDashboard.Margin = new System.Windows.Forms.Padding(6);
-            this.btnDashboard.Name = "btnDashboard";
-            this.btnDashboard.Padding = new System.Windows.Forms.Padding(50, 0, 0, 0);
-            this.btnDashboard.Size = new System.Drawing.Size(400, 88);
-            this.btnDashboard.TabIndex = 24;
-            this.btnDashboard.Text = "Dashboard";
-            this.btnDashboard.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnDashboard.UseVisualStyleBackColor = true;
-            this.btnDashboard.Visible = false;
-            // 
-            // btnProducts
-            // 
-            this.btnProducts.AllowDrop = true;
-            this.btnProducts.Dock = System.Windows.Forms.DockStyle.Top;
-            this.btnProducts.FlatAppearance.BorderSize = 0;
-            this.btnProducts.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnProducts.Font = new System.Drawing.Font("Segoe UI", 14.25F);
-            this.btnProducts.ForeColor = System.Drawing.Color.Gainsboro;
-            this.btnProducts.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnProducts.Location = new System.Drawing.Point(0, 284);
-            this.btnProducts.Margin = new System.Windows.Forms.Padding(6);
-            this.btnProducts.Name = "btnProducts";
-            this.btnProducts.Padding = new System.Windows.Forms.Padding(50, 0, 0, 0);
-            this.btnProducts.Size = new System.Drawing.Size(400, 91);
-            this.btnProducts.TabIndex = 29;
-            this.btnProducts.Text = "Products";
-            this.btnProducts.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnProducts.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.btnProducts.UseVisualStyleBackColor = true;
-            // 
-            // btnSupplier
-            // 
-            this.btnSupplier.AllowDrop = true;
-            this.btnSupplier.Dock = System.Windows.Forms.DockStyle.Top;
-            this.btnSupplier.FlatAppearance.BorderSize = 0;
-            this.btnSupplier.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnSupplier.Font = new System.Drawing.Font("Segoe UI", 14.25F);
-            this.btnSupplier.ForeColor = System.Drawing.Color.Gainsboro;
-            this.btnSupplier.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnSupplier.Location = new System.Drawing.Point(0, 375);
-            this.btnSupplier.Margin = new System.Windows.Forms.Padding(6);
-            this.btnSupplier.Name = "btnSupplier";
-            this.btnSupplier.Padding = new System.Windows.Forms.Padding(50, 0, 0, 0);
-            this.btnSupplier.Size = new System.Drawing.Size(400, 88);
-            this.btnSupplier.TabIndex = 30;
-            this.btnSupplier.Text = "Supplier";
-            this.btnSupplier.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnSupplier.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.btnSupplier.UseVisualStyleBackColor = true;
-            // 
-            // pnlTransaction
-            // 
-            this.pnlTransaction.Controls.Add(this.button2);
-            this.pnlTransaction.Controls.Add(this.btnSells);
-            this.pnlTransaction.Controls.Add(this.btnPurchase);
-            this.pnlTransaction.Controls.Add(this.btnTransaction);
-            this.pnlTransaction.Dock = System.Windows.Forms.DockStyle.Top;
-            this.pnlTransaction.Location = new System.Drawing.Point(0, 463);
-            this.pnlTransaction.Margin = new System.Windows.Forms.Padding(6);
-            this.pnlTransaction.MaximumSize = new System.Drawing.Size(400, 327);
-            this.pnlTransaction.MinimumSize = new System.Drawing.Size(400, 88);
-            this.pnlTransaction.Name = "pnlTransaction";
-            this.pnlTransaction.Size = new System.Drawing.Size(400, 88);
-            this.pnlTransaction.TabIndex = 31;
-            // 
-            // button2
-            // 
-            this.button2.Dock = System.Windows.Forms.DockStyle.Top;
-            this.button2.FlatAppearance.BorderSize = 0;
-            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button2.Font = new System.Drawing.Font("Segoe UI", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.ForeColor = System.Drawing.Color.Gainsboro;
-            this.button2.Location = new System.Drawing.Point(0, 219);
-            this.button2.Margin = new System.Windows.Forms.Padding(6);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(400, 77);
-            this.button2.TabIndex = 29;
-            this.button2.Text = "View";
-            this.button2.UseVisualStyleBackColor = true;
-            // 
-            // btnSells
-            // 
-            this.btnSells.Dock = System.Windows.Forms.DockStyle.Top;
-            this.btnSells.FlatAppearance.BorderSize = 0;
-            this.btnSells.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnSells.Font = new System.Drawing.Font("Segoe UI", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnSells.ForeColor = System.Drawing.Color.Gainsboro;
-            this.btnSells.Location = new System.Drawing.Point(0, 142);
-            this.btnSells.Margin = new System.Windows.Forms.Padding(6);
-            this.btnSells.Name = "btnSells";
-            this.btnSells.Size = new System.Drawing.Size(400, 77);
-            this.btnSells.TabIndex = 28;
-            this.btnSells.Text = "Sales";
-            this.btnSells.UseVisualStyleBackColor = true;
-            // 
-            // btnPurchase
-            // 
-            this.btnPurchase.Dock = System.Windows.Forms.DockStyle.Top;
-            this.btnPurchase.FlatAppearance.BorderSize = 0;
-            this.btnPurchase.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnPurchase.Font = new System.Drawing.Font("Segoe UI", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnPurchase.ForeColor = System.Drawing.Color.Gainsboro;
-            this.btnPurchase.Location = new System.Drawing.Point(0, 65);
-            this.btnPurchase.Margin = new System.Windows.Forms.Padding(6);
-            this.btnPurchase.Name = "btnPurchase";
-            this.btnPurchase.Size = new System.Drawing.Size(400, 77);
-            this.btnPurchase.TabIndex = 27;
-            this.btnPurchase.Text = "Purchase";
-            this.btnPurchase.UseVisualStyleBackColor = true;
-            // 
-            // btnTransaction
-            // 
-            this.btnTransaction.AllowDrop = true;
-            this.btnTransaction.Dock = System.Windows.Forms.DockStyle.Top;
-            this.btnTransaction.FlatAppearance.BorderSize = 0;
-            this.btnTransaction.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnTransaction.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnTransaction.ForeColor = System.Drawing.Color.Gainsboro;
-            this.btnTransaction.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnTransaction.Location = new System.Drawing.Point(0, 0);
-            this.btnTransaction.Margin = new System.Windows.Forms.Padding(6);
-            this.btnTransaction.Name = "btnTransaction";
-            this.btnTransaction.Padding = new System.Windows.Forms.Padding(50, 0, 0, 0);
-            this.btnTransaction.Size = new System.Drawing.Size(400, 65);
-            this.btnTransaction.TabIndex = 26;
-            this.btnTransaction.Text = "Transaction";
-            this.btnTransaction.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnTransaction.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.btnTransaction.UseVisualStyleBackColor = true;
-            // 
-            // pnlRecycle
-            // 
-            this.pnlRecycle.Controls.Add(this.btnRecycleSupplier);
-            this.pnlRecycle.Controls.Add(this.btnRecycleTransaction);
-            this.pnlRecycle.Controls.Add(this.btnRecycleProduct);
-            this.pnlRecycle.Controls.Add(this.btnRecycle);
-            this.pnlRecycle.Dock = System.Windows.Forms.DockStyle.Top;
-            this.pnlRecycle.Location = new System.Drawing.Point(0, 551);
-            this.pnlRecycle.Margin = new System.Windows.Forms.Padding(6);
-            this.pnlRecycle.MaximumSize = new System.Drawing.Size(400, 363);
-            this.pnlRecycle.MinimumSize = new System.Drawing.Size(400, 88);
-            this.pnlRecycle.Name = "pnlRecycle";
-            this.pnlRecycle.Size = new System.Drawing.Size(400, 88);
-            this.pnlRecycle.TabIndex = 32;
-            // 
-            // btnRecycleSupplier
-            // 
-            this.btnRecycleSupplier.AllowDrop = true;
-            this.btnRecycleSupplier.Dock = System.Windows.Forms.DockStyle.Top;
-            this.btnRecycleSupplier.FlatAppearance.BorderSize = 0;
-            this.btnRecycleSupplier.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnRecycleSupplier.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnRecycleSupplier.ForeColor = System.Drawing.Color.Gainsboro;
-            this.btnRecycleSupplier.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnRecycleSupplier.Location = new System.Drawing.Point(0, 264);
-            this.btnRecycleSupplier.Margin = new System.Windows.Forms.Padding(6);
-            this.btnRecycleSupplier.Name = "btnRecycleSupplier";
-            this.btnRecycleSupplier.Padding = new System.Windows.Forms.Padding(50, 0, 0, 0);
-            this.btnRecycleSupplier.Size = new System.Drawing.Size(400, 88);
-            this.btnRecycleSupplier.TabIndex = 33;
-            this.btnRecycleSupplier.Text = "Supplier";
-            this.btnRecycleSupplier.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.btnRecycleSupplier.UseVisualStyleBackColor = true;
-            // 
-            // btnRecycleTransaction
-            // 
-            this.btnRecycleTransaction.AllowDrop = true;
-            this.btnRecycleTransaction.Dock = System.Windows.Forms.DockStyle.Top;
-            this.btnRecycleTransaction.FlatAppearance.BorderSize = 0;
-            this.btnRecycleTransaction.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnRecycleTransaction.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnRecycleTransaction.ForeColor = System.Drawing.Color.Gainsboro;
-            this.btnRecycleTransaction.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnRecycleTransaction.Location = new System.Drawing.Point(0, 176);
-            this.btnRecycleTransaction.Margin = new System.Windows.Forms.Padding(6);
-            this.btnRecycleTransaction.Name = "btnRecycleTransaction";
-            this.btnRecycleTransaction.Padding = new System.Windows.Forms.Padding(50, 0, 0, 0);
-            this.btnRecycleTransaction.Size = new System.Drawing.Size(400, 88);
-            this.btnRecycleTransaction.TabIndex = 32;
-            this.btnRecycleTransaction.Text = "Transaction";
-            this.btnRecycleTransaction.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.btnRecycleTransaction.UseVisualStyleBackColor = true;
-            // 
-            // btnRecycleProduct
-            // 
-            this.btnRecycleProduct.AllowDrop = true;
-            this.btnRecycleProduct.Dock = System.Windows.Forms.DockStyle.Top;
-            this.btnRecycleProduct.FlatAppearance.BorderSize = 0;
-            this.btnRecycleProduct.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnRecycleProduct.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnRecycleProduct.ForeColor = System.Drawing.Color.Gainsboro;
-            this.btnRecycleProduct.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnRecycleProduct.Location = new System.Drawing.Point(0, 88);
-            this.btnRecycleProduct.Margin = new System.Windows.Forms.Padding(6);
-            this.btnRecycleProduct.Name = "btnRecycleProduct";
-            this.btnRecycleProduct.Padding = new System.Windows.Forms.Padding(50, 0, 0, 0);
-            this.btnRecycleProduct.Size = new System.Drawing.Size(400, 88);
-            this.btnRecycleProduct.TabIndex = 31;
-            this.btnRecycleProduct.Text = "Product";
-            this.btnRecycleProduct.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.btnRecycleProduct.UseVisualStyleBackColor = true;
-            // 
-            // btnRecycle
-            // 
-            this.btnRecycle.AllowDrop = true;
-            this.btnRecycle.Dock = System.Windows.Forms.DockStyle.Top;
-            this.btnRecycle.FlatAppearance.BorderSize = 0;
-            this.btnRecycle.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnRecycle.Font = new System.Drawing.Font("Segoe UI", 14.25F);
-            this.btnRecycle.ForeColor = System.Drawing.Color.Gainsboro;
-            this.btnRecycle.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnRecycle.Location = new System.Drawing.Point(0, 0);
-            this.btnRecycle.Margin = new System.Windows.Forms.Padding(6);
-            this.btnRecycle.Name = "btnRecycle";
-            this.btnRecycle.Padding = new System.Windows.Forms.Padding(50, 0, 0, 0);
-            this.btnRecycle.Size = new System.Drawing.Size(400, 88);
-            this.btnRecycle.TabIndex = 30;
-            this.btnRecycle.Text = "History";
-            this.btnRecycle.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnRecycle.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.btnRecycle.UseVisualStyleBackColor = true;
-            // 
-            // pnlImport
-            // 
-            this.pnlImport.Controls.Add(this.BtnImportPurchase);
-            this.pnlImport.Controls.Add(this.btnImportProduct);
-            this.pnlImport.Controls.Add(this.btnImport);
-            this.pnlImport.Dock = System.Windows.Forms.DockStyle.Top;
-            this.pnlImport.Location = new System.Drawing.Point(0, 639);
-            this.pnlImport.Margin = new System.Windows.Forms.Padding(6);
-            this.pnlImport.MaximumSize = new System.Drawing.Size(400, 221);
-            this.pnlImport.MinimumSize = new System.Drawing.Size(400, 77);
-            this.pnlImport.Name = "pnlImport";
-            this.pnlImport.Size = new System.Drawing.Size(400, 77);
-            this.pnlImport.TabIndex = 33;
-            // 
-            // BtnImportPurchase
-            // 
-            this.BtnImportPurchase.AllowDrop = true;
-            this.BtnImportPurchase.Dock = System.Windows.Forms.DockStyle.Top;
-            this.BtnImportPurchase.FlatAppearance.BorderSize = 0;
-            this.BtnImportPurchase.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.BtnImportPurchase.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtnImportPurchase.ForeColor = System.Drawing.Color.Gainsboro;
-            this.BtnImportPurchase.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.BtnImportPurchase.Location = new System.Drawing.Point(0, 142);
-            this.BtnImportPurchase.Margin = new System.Windows.Forms.Padding(6);
-            this.BtnImportPurchase.Name = "BtnImportPurchase";
-            this.BtnImportPurchase.Padding = new System.Windows.Forms.Padding(50, 0, 0, 0);
-            this.BtnImportPurchase.Size = new System.Drawing.Size(400, 77);
-            this.BtnImportPurchase.TabIndex = 29;
-            this.BtnImportPurchase.Text = "Import Purchase";
-            this.BtnImportPurchase.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.BtnImportPurchase.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.BtnImportPurchase.UseVisualStyleBackColor = true;
-            // 
-            // btnImportProduct
-            // 
-            this.btnImportProduct.AllowDrop = true;
-            this.btnImportProduct.Dock = System.Windows.Forms.DockStyle.Top;
-            this.btnImportProduct.FlatAppearance.BorderSize = 0;
-            this.btnImportProduct.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnImportProduct.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnImportProduct.ForeColor = System.Drawing.Color.Gainsboro;
-            this.btnImportProduct.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnImportProduct.Location = new System.Drawing.Point(0, 77);
-            this.btnImportProduct.Margin = new System.Windows.Forms.Padding(6);
-            this.btnImportProduct.Name = "btnImportProduct";
-            this.btnImportProduct.Padding = new System.Windows.Forms.Padding(50, 0, 0, 0);
-            this.btnImportProduct.Size = new System.Drawing.Size(400, 65);
-            this.btnImportProduct.TabIndex = 28;
-            this.btnImportProduct.Text = "Import Product";
-            this.btnImportProduct.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnImportProduct.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.btnImportProduct.UseVisualStyleBackColor = true;
-            // 
-            // btnImport
-            // 
-            this.btnImport.AllowDrop = true;
-            this.btnImport.Dock = System.Windows.Forms.DockStyle.Top;
-            this.btnImport.FlatAppearance.BorderSize = 0;
-            this.btnImport.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnImport.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnImport.ForeColor = System.Drawing.Color.Gainsboro;
-            this.btnImport.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnImport.Location = new System.Drawing.Point(0, 0);
-            this.btnImport.Margin = new System.Windows.Forms.Padding(6);
-            this.btnImport.Name = "btnImport";
-            this.btnImport.Padding = new System.Windows.Forms.Padding(50, 0, 0, 0);
-            this.btnImport.Size = new System.Drawing.Size(400, 77);
-            this.btnImport.TabIndex = 27;
-            this.btnImport.Text = "Import";
-            this.btnImport.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnImport.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.btnImport.UseVisualStyleBackColor = true;
-            // 
-            // btnBackup
-            // 
-            this.btnBackup.AllowDrop = true;
-            this.btnBackup.Dock = System.Windows.Forms.DockStyle.Top;
-            this.btnBackup.FlatAppearance.BorderSize = 0;
-            this.btnBackup.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnBackup.Font = new System.Drawing.Font("Segoe UI", 14.25F);
-            this.btnBackup.ForeColor = System.Drawing.Color.Gainsboro;
-            this.btnBackup.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnBackup.Location = new System.Drawing.Point(0, 716);
-            this.btnBackup.Margin = new System.Windows.Forms.Padding(6);
-            this.btnBackup.Name = "btnBackup";
-            this.btnBackup.Padding = new System.Windows.Forms.Padding(50, 0, 0, 0);
-            this.btnBackup.Size = new System.Drawing.Size(400, 88);
-            this.btnBackup.TabIndex = 34;
-            this.btnBackup.Text = "Backup";
-            this.btnBackup.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnBackup.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.btnBackup.UseVisualStyleBackColor = true;
-            // 
             // FormMain
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
@@ -729,6 +738,9 @@
             this.panelTopbar.PerformLayout();
             this.panel1.ResumeLayout(false);
             this.panelMenuBar.ResumeLayout(false);
+            this.pnlImport.ResumeLayout(false);
+            this.pnlRecycle.ResumeLayout(false);
+            this.pnlTransaction.ResumeLayout(false);
             this.panelDesktopPan.ResumeLayout(false);
             this.pnlNotification.ResumeLayout(false);
             this.panel3.ResumeLayout(false);
@@ -736,9 +748,6 @@
             this.pnlHighItems.PerformLayout();
             this.pnlLowItem.ResumeLayout(false);
             this.pnlLowItem.PerformLayout();
-            this.pnlTransaction.ResumeLayout(false);
-            this.pnlRecycle.ResumeLayout(false);
-            this.pnlImport.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -778,7 +787,6 @@
         private System.Windows.Forms.Button btnRecycleSupplier;
         private System.Windows.Forms.Button btnRecycleTransaction;
         private System.Windows.Forms.Button btnRecycleProduct;
-        private System.Windows.Forms.Button btnRecycle;
         private System.Windows.Forms.Panel pnlTransaction;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button btnSells;
@@ -787,6 +795,7 @@
         private System.Windows.Forms.Button btnSupplier;
         private System.Windows.Forms.Button btnProducts;
         public System.Windows.Forms.Button btnDashboard;
+        private System.Windows.Forms.Button btnRecycle;
     }
 }
 

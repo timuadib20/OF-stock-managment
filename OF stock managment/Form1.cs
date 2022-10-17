@@ -99,17 +99,8 @@ namespace OF_stock_managment
             //navigate();
         }
 
-        private void btnProducts_Click(object sender, EventArgs e)
-        {
-            openChildForm(new Forms.FormProducts(), sender);
-           // navigate();
-        }
-
-        private void btnTransaction_Click(object sender, EventArgs e)
-        {
-            openChildForm(new Forms.FormTransaction(), sender);
-        }
-
+      
+      
         public static void Exit(string ans)
         {
             if (ans == "Yes")
@@ -188,13 +179,7 @@ namespace OF_stock_managment
             openChildForm(new Forms.FormTransaction(), sender);
         }
 
-        private void btnProducts_Click_1(object sender, EventArgs e)
-        {
-            pnlImport.Size = pnlImport.MinimumSize;
-            pnlTransaction.Size = pnlTransaction.MinimumSize;
-            pnlRecycle.Size = pnlRecycle.MinimumSize;
-            openChildForm(new Forms.FormProducts(), sender);
-        }
+     
 
         private void btnTransaction_Click_1(object sender, EventArgs e)
         {
@@ -211,21 +196,8 @@ namespace OF_stock_managment
             //navigate();
         }
 
-        private void btnSupplier_Click_1(object sender, EventArgs e)
-        {
-            pnlImport.Size = pnlImport.MinimumSize;
-            pnlTransaction.Size = pnlTransaction.MinimumSize;
-            pnlRecycle.Size = pnlRecycle.MinimumSize;
-            openChildForm(new Forms.FormSupplier(), sender);
-        }
 
-        private void btnSells_Click(object sender, EventArgs e)
-        {
-            openChildForm(new FormSalesTrans(), sender);
-            pnlImport.Size = pnlImport.MinimumSize;
-            pnlTransaction.Size = pnlTransaction.MinimumSize;
-            pnlRecycle.Size = pnlRecycle.MinimumSize;
-        }
+      
 
         private void btnNotification_Click(object sender, EventArgs e)
         {
@@ -288,7 +260,67 @@ namespace OF_stock_managment
 
         //}
 
-        private void btnImport_Click(object sender, EventArgs e)
+       
+
+      
+
+        
+        private void btnProducts_Click_2(object sender, EventArgs e)
+        {
+            pnlImport.Size = pnlImport.MinimumSize;
+            pnlTransaction.Size = pnlTransaction.MinimumSize;
+            pnlRecycle.Size = pnlRecycle.MinimumSize;
+            openChildForm(new Forms.FormProducts(), sender);
+        }
+
+        private void btnTransaction_Click_2(object sender, EventArgs e)
+        {
+            if (pnlTransaction.Size == pnlTransaction.MaximumSize)
+            {
+                pnlTransaction.Size = pnlTransaction.MinimumSize;
+            }
+            else
+            {
+                pnlTransaction.Size = pnlTransaction.MaximumSize;
+                pnlImport.Size = pnlImport.MinimumSize;
+                pnlRecycle.Size = pnlRecycle.MinimumSize;
+            }
+        }
+
+      
+        private void btnPurchase_Click(object sender, EventArgs e)
+        {
+            pnlImport.Size = pnlImport.MinimumSize;
+            pnlTransaction.Size = pnlTransaction.MinimumSize;
+            pnlRecycle.Size = pnlRecycle.MinimumSize;
+            openChildForm(new FormPurchaseTrans(), sender);
+
+        }
+
+        private void btnSells_Click_1(object sender, EventArgs e)
+        {
+            pnlImport.Size = pnlImport.MinimumSize;
+            pnlTransaction.Size = pnlTransaction.MinimumSize;
+            pnlRecycle.Size = pnlRecycle.MinimumSize;
+            openChildForm(new FormSalesTrans(), sender);
+        }
+
+        private void button2_Click_1(object sender, EventArgs e)
+        {
+
+            pnlImport.Size = pnlImport.MinimumSize;
+            pnlTransaction.Size = pnlTransaction.MinimumSize;
+            pnlRecycle.Size = pnlRecycle.MinimumSize;
+            openChildForm(new Forms.FormTransaction(), sender);
+        }
+
+        private void btnImportProduct_Click_1(object sender, EventArgs e)
+        {
+            FormImport i = new FormImport("Product");
+            openChildForm(i, sender);
+        }
+
+        private void btnImport_Click_1(object sender, EventArgs e)
         {
             if (pnlImport.Size == pnlImport.MaximumSize)
             {
@@ -303,19 +335,20 @@ namespace OF_stock_managment
             }
         }
 
-        private void btnImportProduct_Click(object sender, EventArgs e)
-        {
-            FormImport i = new FormImport("Product");
-            openChildForm(i, sender);
-        }
 
-        private void BtnImportPurchase_Click(object sender, EventArgs e)
+
+        private void BtnImportPurchase_Click_1(object sender, EventArgs e)
         {
             FormImport i = new FormImport("Sales");
             openChildForm(i, sender);
         }
 
-
-
+        private void btnSupplier_Click_2(object sender, EventArgs e)
+        {
+            pnlImport.Size = pnlImport.MinimumSize;
+            pnlTransaction.Size = pnlTransaction.MinimumSize;
+            pnlRecycle.Size = pnlRecycle.MinimumSize;
+            openChildForm(new Forms.FormSupplier(), sender);
+        }
     }
 }
